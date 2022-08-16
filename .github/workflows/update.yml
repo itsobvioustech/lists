@@ -1,0 +1,28 @@
+name: Periodic Update
+on:
+  schedule:
+    # Run twice per day (at 1:00UTC, 13:00UTC)
+    - cron: "0 1,13 * * *"
+  workflow_dispatch:
+jobs:
+  periodic-auto-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+
+      - name: Run script that collects tokens
+        run: |
+          python3 aggregate_tokens.py && python3 generate_readme.py
+      - name: Commit changes
+        if: success()
+        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          commit_user_name: obvious-bot
+          commit_user_email: ansuman@obvious.technology
+          commit_message: Token Updates

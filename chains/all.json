@@ -1,0 +1,221 @@
+[
+  {
+    "key": "eth",
+    "chainType": "EVM",
+    "name": "Ethereum",
+    "coin": "ETH",
+    "id": 1,
+    "unmarshal": "ethereum",
+    "unmarshalCoinId": 60,
+    "coinGeckoId": "ethereum",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ethereum.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x1",
+      "blockExplorerUrls": ["https://etherscan.io/"],
+      "chainName": "Ethereum Mainnet",
+      "nativeCurrency": { "name": "ETH", "symbol": "ETH", "decimals": 18 },
+      "rpcUrls": [
+        "https://rpc.ankr.com/eth",
+        "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+      ]
+    }
+  },
+  {
+    "key": "pol",
+    "chainType": "EVM",
+    "name": "Polygon",
+    "coin": "MATIC",
+    "id": 137,
+    "unmarshal": "matic",
+    "unmarshalCoinId": 137,
+    "coinGeckoId": "polygon-pos",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/polygon.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x89",
+      "blockExplorerUrls": ["https://polygonscan.com/"],
+      "chainName": "Matic(Polygon) Mainnet",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://rpc.ankr.com/polygon", "https://polygon-rpc.com/"]
+    }
+  },
+  {
+    "key": "bsc",
+    "chainType": "EVM",
+    "name": "BSC",
+    "coin": "BNB",
+    "id": 56,
+    "unmarshal": "bsc",
+    "unmarshalCoinId": 10000714,
+    "coinGeckoId": "binance-smart-chain",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bsc.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x38",
+      "blockExplorerUrls": ["https://bscscan.com/"],
+      "chainName": "Binance Smart Chain Mainnet",
+      "nativeCurrency": { "name": "BNB", "symbol": "BNB", "decimals": 18 },
+      "rpcUrls": [
+        "https://rpc.ankr.com/bsc",
+        "https://bsc-dataseed.binance.org/",
+        "https://bsc-dataseed1.defibit.io/",
+        "https://bsc-dataseed1.ninicoin.io/"
+      ]
+    }
+  },
+  {
+    "key": "dai",
+    "chainType": "EVM",
+    "name": "Gnosis",
+    "coin": "XDAI",
+    "id": 100,
+    "unmarshal": "gnosis",
+    "unmarshalCoinId": 100,
+    "coinGeckoId": "xdai",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/gnosis.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x64",
+      "blockExplorerUrls": ["https://blockscout.com/xdai/mainnet/"],
+      "chainName": "Gnosis Chain",
+      "nativeCurrency": { "name": "xDai", "symbol": "xDai", "decimals": 18 },
+      "rpcUrls": [
+        "https://rpc.ankr.com/gnosis",
+        "https://rpc.gnosischain.com/",
+        "https://rpc.xdaichain.com/",
+        "https://dai.poa.network/"
+      ]
+    }
+  },
+  {
+    "key": "ftm",
+    "chainType": "EVM",
+    "name": "Fantom",
+    "coin": "FTM",
+    "id": 250,
+    "unmarshal": "fantom",
+    "unmarshalCoinId": 250,
+    "coinGeckoId": "fantom",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fantom.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xfa",
+      "blockExplorerUrls": ["https://ftmscan.com/"],
+      "chainName": "Fantom Opera",
+      "nativeCurrency": { "name": "FTM", "symbol": "FTM", "decimals": 18 },
+      "rpcUrls": [
+        "https://rpc.ankr.com/fantom",
+        "https://rpc.ftm.tools/",
+        "https://rpcapi.fantom.network"
+      ]
+    }
+  },
+  {
+    "key": "ava",
+    "chainType": "EVM",
+    "name": "Avalanche",
+    "coin": "AVAX",
+    "id": 43114,
+    "unmarshal": "avalanche",
+    "unmarshalCoinId": 43114,
+    "coinGeckoId": "avalanche",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/avalanche.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xa86a",
+      "blockExplorerUrls": ["https://cchain.explorer.avax.network/"],
+      "chainName": "Avalanche Mainnet",
+      "nativeCurrency": { "name": "AVAX", "symbol": "AVAX", "decimals": 18 },
+      "rpcUrls": [
+        "https://rpc.ankr.com/avalanche",
+        "https://api.avax.network/ext/bc/C/rpc"
+      ]
+    }
+  },
+  {
+    "key": "arb",
+    "chainType": "EVM",
+    "name": "Arbitrum One",
+    "coin": "ETH",
+    "id": 42161,
+    "unmarshal": "arbitrum",
+    "unmarshalCoinId": 42161,
+    "coinGeckoId": "arbitrum-one",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arbitrum.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xa4b1",
+      "blockExplorerUrls": ["https://arbiscan.io/"],
+      "chainName": "Arbitrum One",
+      "nativeCurrency": { "name": "ETH", "symbol": "ETH", "decimals": 18 },
+      "rpcUrls": [
+        "https://rpc.ankr.com/arbitrum",
+        "https://arb1.arbitrum.io/rpc"
+      ]
+    }
+  },
+  {
+    "key": "opt",
+    "chainType": "EVM",
+    "name": "Optimism",
+    "coin": "ETH",
+    "id": 10,
+    "unmarshal": "optimism",
+    "unmarshalCoinId": 10,
+    "coinGeckoId": "optimistic-ethereum",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/optimism.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xa",
+      "blockExplorerUrls": ["https://optimistic.etherscan.io/"],
+      "chainName": "Optimism",
+      "nativeCurrency": { "name": "ETH", "symbol": "ETH", "decimals": 18 },
+      "rpcUrls": [
+        "https://rpc.ankr.com/optimism",
+        "https://mainnet.optimism.io/"
+      ]
+    }
+  },
+  {
+    "key": "mum",
+    "chainType": "EVM",
+    "name": "Polygon Testnet",
+    "coin": "MATIC",
+    "id": 80001,
+    "unmarshal": "matic-testnet",
+    "unmarshalCoinId": 80001,
+    "coinGeckoId": "polygon-pos",
+    "mainnet": false,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/polygon_test.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x13881",
+      "blockExplorerUrls": ["https://explorer-mumbai.maticvigil.com/"],
+      "chainName": "Matic(Polygon) Testnet Mumbai",
+      "nativeCurrency": { "name": "MATIC", "symbol": "tMATIC", "decimals": 18 },
+      "rpcUrls": ["https://rpc-mumbai.matic.today"]
+    }
+  }
+]

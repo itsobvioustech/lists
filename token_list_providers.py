@@ -7,7 +7,7 @@ from web3 import Web3
 
 from coingecko_ids import coingecko_ids
 from coingecko_mcap import coingecko_mcap
-from common import ChainId, Token
+from common import ChainId, Token, NATIVE_ADDRESSES, NATIVE_TOKEN_COIN_GECKO_IDS
 
 
 class TokenListProvider:
@@ -30,6 +30,8 @@ class TokenListProvider:
                 if token["address"].startswith("0x"):
                     token["address"] = Web3.toChecksumAddress(token["address"])
                 cg_id = coingecko_ids.get(chain_id, {}).get(token["address"].lower())
+                if cg_id is None and token["address"].lower() in NATIVE_ADDRESSES:
+                    cg_id = NATIVE_TOKEN_COIN_GECKO_IDS[chain_id]
                 logo = token.get("logoURI") or token.get("icon") or token.get("image")
                 if logo and logo.startswith('//'):
                     logo = 'https:' + logo

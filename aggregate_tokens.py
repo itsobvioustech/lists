@@ -5,8 +5,6 @@ from collections import defaultdict
 import httpx
 from web3 import Web3
 
-from coingecko_ids import coingecko_ids
-from coingecko_mcap import coingecko_mcap
 from common import ChainId, Address, NATIVE_ADDRESSES, NATIVE_ADDR_0x0, Token, CHAIN_NAMES_BY_ID
 from token_list_providers import tokenlists_providers
 
@@ -47,8 +45,7 @@ async def collect_trusted_tokens() -> dict[ChainId, dict[Address, Token]]:
         chain_id, tokens in res.items()
     }
     trusted = {k: v for k, v in trusted.items() if len(v) > 0}
-    trusted = {k: list(sorted(v.values(
-    ), key=lambda x: x['address'], reverse=False)) for k, v in trusted.items()}
+    trusted = {k: list(sorted(v.values(), key=lambda x: x['marketCap'], reverse=True)) for k, v in trusted.items()}
     for chain_id, tokens in trusted.items():
         filename = f"{TOKENLISTS_FOLDER}/{CHAIN_NAMES_BY_ID[chain_id]}.json"
         with open(filename, "w", encoding="utf-8") as f:

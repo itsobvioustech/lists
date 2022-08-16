@@ -6,6 +6,7 @@ import httpx
 from web3 import Web3
 
 from coingecko_ids import coingecko_ids
+from coingecko_mcap import coingecko_mcap
 from common import ChainId, Token
 
 
@@ -53,7 +54,9 @@ class TokenListProvider:
                         decimals=decimals,
                         chainId=chain_id,
                         logoURI=logo,
-                        coingeckoId=cg_id
+                        coingeckoId=cg_id,
+                        marketCap=coingecko_mcap.get(cg_id, {}).get("market_cap", 0),
+                        marketCapRank=coingecko_mcap.get(cg_id, {}).get("market_cap_rank", 0)
                     )
                     res.append(t)
             except Exception as exc:

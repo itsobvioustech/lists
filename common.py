@@ -61,6 +61,8 @@ class Token(TypedDict):
     chainId: str
     logoURI: str
     coingeckoId: str
+    marketCap: int
+    marketCapRank: int
 
 NATIVE_ADDR_0xe = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 NATIVE_ADDR_0x0 = "0x0000000000000000000000000000000000000000"

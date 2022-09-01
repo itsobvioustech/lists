@@ -46,7 +46,7 @@ async def collect_trusted_tokens() -> dict[ChainId, dict[Address, Token]]:
         chain_id, tokens in res.items()
     }
     trusted = {k: v for k, v in trusted.items() if len(v) > 0}
-    trusted = {k: list(sorted(v.values(), key=lambda x: x['marketCap'], reverse=True)) for k, v in trusted.items()}
+    # trusted = {k: list(sorted(v.values(), key=lambda x: x['marketCap'], reverse=True)) for k, v in trusted.items()}
     for chain_id, tokens in trusted.items():
         filename = f"{TOKENLISTS_FOLDER}/{CHAIN_NAMES_BY_ID[chain_id]}.json"
         with open(filename, "w", encoding="utf-8") as f:
@@ -54,9 +54,9 @@ async def collect_trusted_tokens() -> dict[ChainId, dict[Address, Token]]:
     with open(f"{TOKENLISTS_FOLDER}/all.json", "w", encoding="utf-8") as f:
         json.dump(trusted, f, ensure_ascii=False)
 
-    token_hashed = {k: {item['address']:item for item in v} for k, v in trusted.items()}
-    with open(f"{TOKENLISTS_FOLDER}/all_hashed.json", "w", encoding="utf-8") as f:
-        json.dump(token_hashed, f, ensure_ascii=False)
+    # token_hashed = {k: {item['address']:item for item in v} for k, v in trusted.items()}
+    # with open(f"{TOKENLISTS_FOLDER}/all_hashed.json", "w", encoding="utf-8") as f:
+    #     json.dump(token_hashed, f, ensure_ascii=False)
 
     print("collected trusted tokens")
     return trusted

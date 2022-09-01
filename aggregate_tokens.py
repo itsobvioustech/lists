@@ -23,7 +23,8 @@ async def collect_trusted_tokens() -> dict[ChainId, dict[Address, Token]]:
             for token in tokens:
                 token['chainId'] = int(token['chainId'])
                 addr = token["address"].strip().lower()
-                if addr.lower() in NATIVE_ADDRESSES:  # skip native tokens
+                token["address"] = addr
+                if addr in NATIVE_ADDRESSES:  # skip native tokens
                     addr = NATIVE_ADDR_0x0
                     token['address'] = addr
                 # if addr.startswith('0x'):
@@ -52,6 +53,10 @@ async def collect_trusted_tokens() -> dict[ChainId, dict[Address, Token]]:
             json.dump(tokens, f, ensure_ascii=False)
     with open(f"{TOKENLISTS_FOLDER}/all.json", "w", encoding="utf-8") as f:
         json.dump(trusted, f, ensure_ascii=False)
+
+    token_hashed = {k: {item['address']:item for item in v} for k, v in trusted.items()}
+    with open(f"{TOKENLISTS_FOLDER}/all_hashed.json", "w", encoding="utf-8") as f:
+        json.dump(token_hashed, f, ensure_ascii=False)
 
     print("collected trusted tokens")
     return trusted

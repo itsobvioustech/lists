@@ -94,6 +94,8 @@ class TokenListProvider:
                 tokens = tokenlist["tokens"]
             elif "data" in tokenlist:
                 tokens = tokenlist["data"]
+            elif "results" in tokenlist:
+                tokens = tokenlist["results"]
             else:
                 tokens = tokenlist
 
@@ -302,7 +304,7 @@ class TrisolarisLabsLists(TokenListProvider):
 
 class RubicLists(TokenListProvider):
     name = "rubic"
-    base_url = "https://api.rubic.exchange/api/tokens/?network={}"
+    base_url = "https://api.rubic.exchange/api/tokens/?pageSize=1000&network={}"
     chains = {
         # "-2": "near",
         # "-1": "solana",

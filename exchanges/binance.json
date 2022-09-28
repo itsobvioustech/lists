@@ -1,0 +1,1787 @@
+[
+  {
+    "exchangeSymbol": "BUSD",
+    "exchCoingeckoId": "binance-usd",
+    "coingeckoId": "binance-usd"
+  },
+  {
+    "exchangeSymbol": "BTC",
+    "exchCoingeckoId": "bitcoin",
+    "coingeckoId": "bitcoin"
+  },
+  {
+    "exchangeSymbol": "ETH",
+    "exchCoingeckoId": "ethereum",
+    "coingeckoId": "ethereum"
+  },
+  {
+    "exchangeSymbol": "BETH",
+    "exchCoingeckoId": "binance-eth",
+    "coingeckoId": "binance-eth"
+  },
+  {
+    "exchangeSymbol": "WBTC",
+    "exchCoingeckoId": "wrapped-bitcoin",
+    "coingeckoId": "wrapped-bitcoin"
+  },
+  {
+    "exchangeSymbol": "XRP",
+    "exchCoingeckoId": "ripple",
+    "coingeckoId": "ripple"
+  },
+  {
+    "exchangeSymbol": "LUNC",
+    "exchCoingeckoId": "terra-luna",
+    "coingeckoId": "terra-luna"
+  },
+  {
+    "exchangeSymbol": "ETC",
+    "exchCoingeckoId": "ethereum-classic",
+    "coingeckoId": "ethereum-classic"
+  },
+  {
+    "exchangeSymbol": "SOL",
+    "exchCoingeckoId": "solana",
+    "coingeckoId": "solana"
+  },
+  {
+    "exchangeSymbol": "BNB",
+    "exchCoingeckoId": "binancecoin",
+    "coingeckoId": "binancecoin"
+  },
+  {
+    "exchangeSymbol": "ADA",
+    "exchCoingeckoId": "cardano",
+    "coingeckoId": "cardano"
+  },
+  {
+    "exchangeSymbol": "USDT",
+    "exchCoingeckoId": "tether",
+    "coingeckoId": "tether"
+  },
+  {
+    "exchangeSymbol": "LINK",
+    "exchCoingeckoId": "chainlink",
+    "coingeckoId": "chainlink"
+  },
+  {
+    "exchangeSymbol": "MATIC",
+    "exchCoingeckoId": "matic-network",
+    "coingeckoId": "matic-network"
+  },
+  {
+    "exchangeSymbol": "ATOM",
+    "exchCoingeckoId": "cosmos",
+    "coingeckoId": "cosmos"
+  },
+  {
+    "exchangeSymbol": "SHIB",
+    "exchCoingeckoId": "shiba-inu",
+    "coingeckoId": "shiba-inu"
+  },
+  {
+    "exchangeSymbol": "CHZ",
+    "exchCoingeckoId": "chiliz",
+    "coingeckoId": "chiliz"
+  },
+  {
+    "exchangeSymbol": "AVAX",
+    "exchCoingeckoId": "avalanche-2",
+    "coingeckoId": "avalanche-2"
+  },
+  {
+    "exchangeSymbol": "NEAR",
+    "exchCoingeckoId": "near",
+    "coingeckoId": "near"
+  },
+  {
+    "exchangeSymbol": "DOT",
+    "exchCoingeckoId": "polkadot",
+    "coingeckoId": "polkadot"
+  },
+  {
+    "exchangeSymbol": "LTC",
+    "exchCoingeckoId": "litecoin",
+    "coingeckoId": "litecoin"
+  },
+  {
+    "exchangeSymbol": "DOGE",
+    "exchCoingeckoId": "dogecoin",
+    "coingeckoId": "dogecoin"
+  },
+  {
+    "exchangeSymbol": "APE",
+    "exchCoingeckoId": "apecoin",
+    "coingeckoId": "apecoin"
+  },
+  {
+    "exchangeSymbol": "GMT",
+    "exchCoingeckoId": "stepn",
+    "coingeckoId": "stepn"
+  },
+  {
+    "exchangeSymbol": "SAND",
+    "exchCoingeckoId": "the-sandbox",
+    "coingeckoId": "the-sandbox"
+  },
+  {
+    "exchangeSymbol": "TRX",
+    "exchCoingeckoId": "tron",
+    "coingeckoId": "tron"
+  },
+  {
+    "exchangeSymbol": "FTM",
+    "exchCoingeckoId": "fantom",
+    "coingeckoId": "fantom"
+  },
+  {
+    "exchangeSymbol": "EOS",
+    "exchCoingeckoId": "eos",
+    "coingeckoId": "eos"
+  },
+  {
+    "exchangeSymbol": "OP",
+    "exchCoingeckoId": "optimism",
+    "coingeckoId": "optimism"
+  },
+  {
+    "exchangeSymbol": "LUNA",
+    "exchCoingeckoId": "terra-luna-2",
+    "coingeckoId": "terra-luna-2"
+  },
+  {
+    "exchangeSymbol": "FIL",
+    "exchCoingeckoId": "filecoin",
+    "coingeckoId": "filecoin"
+  },
+  {
+    "exchangeSymbol": "UNI",
+    "exchCoingeckoId": "uniswap",
+    "coingeckoId": "uniswap"
+  },
+  {
+    "exchangeSymbol": "BCH",
+    "exchCoingeckoId": "bitcoin-cash",
+    "coingeckoId": "bitcoin-cash"
+  },
+  {
+    "exchangeSymbol": "FTT",
+    "exchCoingeckoId": "ftx-token",
+    "coingeckoId": "ftx-token"
+  },
+  {
+    "exchangeSymbol": "ALGO",
+    "exchCoingeckoId": "algorand",
+    "coingeckoId": "algorand"
+  },
+  {
+    "exchangeSymbol": "ENS",
+    "exchCoingeckoId": "ethereum-name-service",
+    "coingeckoId": "ethereum-name-service"
+  },
+  {
+    "exchangeSymbol": "AAVE",
+    "exchCoingeckoId": "aave",
+    "coingeckoId": "aave"
+  },
+  {
+    "exchangeSymbol": "MANA",
+    "exchCoingeckoId": "decentraland",
+    "coingeckoId": "decentraland"
+  },
+  {
+    "exchangeSymbol": "PAXG",
+    "exchCoingeckoId": "pax-gold",
+    "coingeckoId": "pax-gold"
+  },
+  {
+    "exchangeSymbol": "CRV",
+    "exchCoingeckoId": "curve-dao-token",
+    "coingeckoId": "curve-dao-token"
+  },
+  {
+    "exchangeSymbol": "THETA",
+    "exchCoingeckoId": "theta-token",
+    "coingeckoId": "theta-token"
+  },
+  {
+    "exchangeSymbol": "VET",
+    "exchCoingeckoId": "vechain",
+    "coingeckoId": "vechain"
+  },
+  {
+    "exchangeSymbol": "DYDX",
+    "exchCoingeckoId": "dydx",
+    "coingeckoId": "dydx"
+  },
+  {
+    "exchangeSymbol": "LDO",
+    "exchCoingeckoId": "lido-dao",
+    "coingeckoId": "lido-dao"
+  },
+  {
+    "exchangeSymbol": "GALA",
+    "exchCoingeckoId": "gala",
+    "coingeckoId": "gala"
+  },
+  {
+    "exchangeSymbol": "XLM",
+    "exchCoingeckoId": "stellar",
+    "coingeckoId": "stellar"
+  },
+  {
+    "exchangeSymbol": "AXS",
+    "exchCoingeckoId": "axie-infinity",
+    "coingeckoId": "axie-infinity"
+  },
+  {
+    "exchangeSymbol": "ZEC",
+    "exchCoingeckoId": "zcash",
+    "coingeckoId": "zcash"
+  },
+  {
+    "exchangeSymbol": "XMR",
+    "exchCoingeckoId": "monero",
+    "coingeckoId": "monero"
+  },
+  {
+    "exchangeSymbol": "FLOW",
+    "exchCoingeckoId": "flow",
+    "coingeckoId": "flow"
+  },
+  {
+    "exchangeSymbol": "XTZ",
+    "exchCoingeckoId": "tezos",
+    "coingeckoId": "tezos"
+  },
+  {
+    "exchangeSymbol": "NEO",
+    "exchCoingeckoId": "neo",
+    "coingeckoId": "neo"
+  },
+  {
+    "exchangeSymbol": "RUNE",
+    "exchCoingeckoId": "thorchain",
+    "coingeckoId": "thorchain"
+  },
+  {
+    "exchangeSymbol": "KNC",
+    "exchCoingeckoId": "kyber-network-crystal",
+    "coingeckoId": "kyber-network-crystal"
+  },
+  {
+    "exchangeSymbol": "DASH",
+    "exchCoingeckoId": "dash",
+    "coingeckoId": "dash"
+  },
+  {
+    "exchangeSymbol": "COMP",
+    "exchCoingeckoId": "compound-governance-token",
+    "coingeckoId": "compound-governance-token"
+  },
+  {
+    "exchangeSymbol": "SUSHI",
+    "exchCoingeckoId": "sushi",
+    "coingeckoId": "sushi"
+  },
+  {
+    "exchangeSymbol": "KAVA",
+    "exchCoingeckoId": "kava",
+    "coingeckoId": "kava"
+  },
+  {
+    "exchangeSymbol": "YFI",
+    "exchCoingeckoId": "yearn-finance",
+    "coingeckoId": "yearn-finance"
+  },
+  {
+    "exchangeSymbol": "GRT",
+    "exchCoingeckoId": "the-graph",
+    "coingeckoId": "the-graph"
+  },
+  {
+    "exchangeSymbol": "BNX",
+    "exchCoingeckoId": "binaryx",
+    "coingeckoId": "binaryx"
+  },
+  {
+    "exchangeSymbol": "LRC",
+    "exchCoingeckoId": "loopring",
+    "coingeckoId": "loopring"
+  },
+  {
+    "exchangeSymbol": "RVN",
+    "exchCoingeckoId": "ravencoin",
+    "coingeckoId": "ravencoin"
+  },
+  {
+    "exchangeSymbol": "HNT",
+    "exchCoingeckoId": "helium",
+    "coingeckoId": "helium"
+  },
+  {
+    "exchangeSymbol": "USTC",
+    "exchCoingeckoId": "terrausd",
+    "coingeckoId": "terrausd"
+  },
+  {
+    "exchangeSymbol": "SANTOS",
+    "exchCoingeckoId": "santos-fc-fan-token",
+    "coingeckoId": "santos-fc-fan-token"
+  },
+  {
+    "exchangeSymbol": "BAT",
+    "exchCoingeckoId": "basic-attention-token",
+    "coingeckoId": "basic-attention-token"
+  },
+  {
+    "exchangeSymbol": "EGLD",
+    "exchCoingeckoId": "elrond-erd-2",
+    "coingeckoId": "elrond-erd-2"
+  },
+  {
+    "exchangeSymbol": "ROSE",
+    "exchCoingeckoId": "oasis-network",
+    "coingeckoId": "oasis-network"
+  },
+  {
+    "exchangeSymbol": "ICP",
+    "exchCoingeckoId": "internet-computer",
+    "coingeckoId": "internet-computer"
+  },
+  {
+    "exchangeSymbol": "SNX",
+    "exchCoingeckoId": "havven",
+    "coingeckoId": "havven"
+  },
+  {
+    "exchangeSymbol": "OMG",
+    "exchCoingeckoId": "omisego",
+    "coingeckoId": "omisego"
+  },
+  {
+    "exchangeSymbol": "RSR",
+    "exchCoingeckoId": "reserve-rights-token",
+    "coingeckoId": "reserve-rights-token"
+  },
+  {
+    "exchangeSymbol": "ANC",
+    "exchCoingeckoId": "anchor-protocol",
+    "coingeckoId": "anchor-protocol"
+  },
+  {
+    "exchangeSymbol": "ZRX",
+    "exchCoingeckoId": "0x",
+    "coingeckoId": "0x"
+  },
+  {
+    "exchangeSymbol": "JASMY",
+    "exchCoingeckoId": "jasmycoin",
+    "coingeckoId": "jasmycoin"
+  },
+  {
+    "exchangeSymbol": "INJ",
+    "exchCoingeckoId": "injective-protocol",
+    "coingeckoId": "injective-protocol"
+  },
+  {
+    "exchangeSymbol": "ONE",
+    "exchCoingeckoId": "harmony",
+    "coingeckoId": "harmony"
+  },
+  {
+    "exchangeSymbol": "HBAR",
+    "exchCoingeckoId": "hedera-hashgraph",
+    "coingeckoId": "hedera-hashgraph"
+  },
+  {
+    "exchangeSymbol": "ENJ",
+    "exchCoingeckoId": "enjincoin",
+    "coingeckoId": "enjincoin"
+  },
+  {
+    "exchangeSymbol": "PEOPLE",
+    "exchCoingeckoId": "constitutiondao",
+    "coingeckoId": "constitutiondao"
+  },
+  {
+    "exchangeSymbol": "PHB",
+    "exchCoingeckoId": "phoenix-global",
+    "coingeckoId": "phoenix-global"
+  },
+  {
+    "exchangeSymbol": "QNT",
+    "exchCoingeckoId": "quant-network",
+    "coingeckoId": "quant-network"
+  },
+  {
+    "exchangeSymbol": "CAKE",
+    "exchCoingeckoId": "pancakeswap-token",
+    "coingeckoId": "pancakeswap-token"
+  },
+  {
+    "exchangeSymbol": "TRB",
+    "exchCoingeckoId": "tellor",
+    "coingeckoId": "tellor"
+  },
+  {
+    "exchangeSymbol": "STG",
+    "exchCoingeckoId": "stargate-finance",
+    "coingeckoId": "stargate-finance"
+  },
+  {
+    "exchangeSymbol": "ZIL",
+    "exchCoingeckoId": "zilliqa",
+    "coingeckoId": "zilliqa"
+  },
+  {
+    "exchangeSymbol": "UNFI",
+    "exchCoingeckoId": "unifi-protocol-dao",
+    "coingeckoId": "unifi-protocol-dao"
+  },
+  {
+    "exchangeSymbol": "AR",
+    "exchCoingeckoId": "arweave",
+    "coingeckoId": "arweave"
+  },
+  {
+    "exchangeSymbol": "ELF",
+    "exchCoingeckoId": "aelf",
+    "coingeckoId": "aelf"
+  },
+  {
+    "exchangeSymbol": "ANKR",
+    "exchCoingeckoId": "ankr",
+    "coingeckoId": "ankr"
+  },
+  {
+    "exchangeSymbol": "XEC",
+    "exchCoingeckoId": "ecash",
+    "coingeckoId": "ecash"
+  },
+  {
+    "exchangeSymbol": "IOTA",
+    "exchCoingeckoId": "iota",
+    "coingeckoId": "iota"
+  },
+  {
+    "exchangeSymbol": "REEF",
+    "exchCoingeckoId": "reef",
+    "coingeckoId": "reef"
+  },
+  {
+    "exchangeSymbol": "CELO",
+    "exchCoingeckoId": "celo",
+    "coingeckoId": "celo"
+  },
+  {
+    "exchangeSymbol": "SXP",
+    "exchCoingeckoId": "swipe",
+    "coingeckoId": "swipe"
+  },
+  {
+    "exchangeSymbol": "NEBL",
+    "exchCoingeckoId": "neblio",
+    "coingeckoId": "neblio"
+  },
+  {
+    "exchangeSymbol": "ALICE",
+    "exchCoingeckoId": "my-neighbor-alice",
+    "coingeckoId": "my-neighbor-alice"
+  },
+  {
+    "exchangeSymbol": "1INCH",
+    "exchCoingeckoId": "1inch",
+    "coingeckoId": "1inch"
+  },
+  {
+    "exchangeSymbol": "SRM",
+    "exchCoingeckoId": "serum",
+    "coingeckoId": "serum"
+  },
+  {
+    "exchangeSymbol": "LAZIO",
+    "exchCoingeckoId": "lazio-fan-token",
+    "coingeckoId": "lazio-fan-token"
+  },
+  {
+    "exchangeSymbol": "KSM",
+    "exchCoingeckoId": "kusama",
+    "coingeckoId": "kusama"
+  },
+  {
+    "exchangeSymbol": "KP3R",
+    "exchCoingeckoId": "keep3rv1",
+    "coingeckoId": "keep3rv1"
+  },
+  {
+    "exchangeSymbol": "VIB",
+    "exchCoingeckoId": "viberate",
+    "coingeckoId": "viberate"
+  },
+  {
+    "exchangeSymbol": "BLZ",
+    "exchCoingeckoId": "bluzelle",
+    "coingeckoId": "bluzelle"
+  },
+  {
+    "exchangeSymbol": "STORJ",
+    "exchCoingeckoId": "storj",
+    "coingeckoId": "storj"
+  },
+  {
+    "exchangeSymbol": "PORTO",
+    "exchCoingeckoId": "fc-porto",
+    "coingeckoId": "fc-porto"
+  },
+  {
+    "exchangeSymbol": "GAL",
+    "exchCoingeckoId": "project-galaxy",
+    "coingeckoId": "project-galaxy"
+  },
+  {
+    "exchangeSymbol": "IMX",
+    "exchCoingeckoId": "immutable-x",
+    "coingeckoId": "immutable-x"
+  },
+  {
+    "exchangeSymbol": "WOO",
+    "exchCoingeckoId": "woo-network",
+    "coingeckoId": "woo-network"
+  },
+  {
+    "exchangeSymbol": "KLAY",
+    "exchCoingeckoId": "klay-token",
+    "coingeckoId": "klay-token"
+  },
+  {
+    "exchangeSymbol": "C98",
+    "exchCoingeckoId": "coin98",
+    "coingeckoId": "coin98"
+  },
+  {
+    "exchangeSymbol": "BAND",
+    "exchCoingeckoId": "band-protocol",
+    "coingeckoId": "band-protocol"
+  },
+  {
+    "exchangeSymbol": "WAVES",
+    "exchCoingeckoId": "waves",
+    "coingeckoId": "waves"
+  },
+  {
+    "exchangeSymbol": "IOTX",
+    "exchCoingeckoId": "iotex",
+    "coingeckoId": "iotex"
+  },
+  {
+    "exchangeSymbol": "PYR",
+    "exchCoingeckoId": "vulcan-forged",
+    "coingeckoId": "vulcan-forged"
+  },
+  {
+    "exchangeSymbol": "ETHDOWN",
+    "exchCoingeckoId": "ethdown",
+    "coingeckoId": "ethdown"
+  },
+  {
+    "exchangeSymbol": "COTI",
+    "exchCoingeckoId": "coti",
+    "coingeckoId": "coti"
+  },
+  {
+    "exchangeSymbol": "SKL",
+    "exchCoingeckoId": "skale",
+    "coingeckoId": "skale"
+  },
+  {
+    "exchangeSymbol": "OCEAN",
+    "exchCoingeckoId": "ocean-protocol",
+    "coingeckoId": "ocean-protocol"
+  },
+  {
+    "exchangeSymbol": "POLY",
+    "exchCoingeckoId": "polymath",
+    "coingeckoId": "polymath"
+  },
+  {
+    "exchangeSymbol": "BTCST",
+    "exchCoingeckoId": "btc-standard-hashrate-token",
+    "coingeckoId": "btc-standard-hashrate-token"
+  },
+  {
+    "exchangeSymbol": "IOST",
+    "exchCoingeckoId": "iostoken",
+    "coingeckoId": "iostoken"
+  },
+  {
+    "exchangeSymbol": "AMB",
+    "exchCoingeckoId": "amber",
+    "coingeckoId": "amber"
+  },
+  {
+    "exchangeSymbol": "MASK",
+    "exchCoingeckoId": "mask-network",
+    "coingeckoId": "mask-network"
+  },
+  {
+    "exchangeSymbol": "WING",
+    "exchCoingeckoId": "wing-finance",
+    "coingeckoId": "wing-finance"
+  },
+  {
+    "exchangeSymbol": "MKR",
+    "exchCoingeckoId": "maker",
+    "coingeckoId": "maker"
+  },
+  {
+    "exchangeSymbol": "OAX",
+    "exchCoingeckoId": "openanx",
+    "coingeckoId": "openanx"
+  },
+  {
+    "exchangeSymbol": "SPELL",
+    "exchCoingeckoId": "spell-token",
+    "coingeckoId": "spell-token"
+  },
+  {
+    "exchangeSymbol": "QTUM",
+    "exchCoingeckoId": "qtum",
+    "coingeckoId": "qtum"
+  },
+  {
+    "exchangeSymbol": "HOT",
+    "exchCoingeckoId": "holotoken",
+    "coingeckoId": "holotoken"
+  },
+  {
+    "exchangeSymbol": "PUNDIX",
+    "exchCoingeckoId": "pundi-x-2",
+    "coingeckoId": "pundi-x-2"
+  },
+  {
+    "exchangeSymbol": "CELR",
+    "exchCoingeckoId": "celer-network",
+    "coingeckoId": "celer-network"
+  },
+  {
+    "exchangeSymbol": "CHR",
+    "exchCoingeckoId": "chromaway",
+    "coingeckoId": "chromaway"
+  },
+  {
+    "exchangeSymbol": "BOND",
+    "exchCoingeckoId": "barnbridge",
+    "coingeckoId": "barnbridge"
+  },
+  {
+    "exchangeSymbol": "SLP",
+    "exchCoingeckoId": "smooth-love-potion",
+    "coingeckoId": "smooth-love-potion"
+  },
+  {
+    "exchangeSymbol": "BAL",
+    "exchCoingeckoId": "balancer",
+    "coingeckoId": "balancer"
+  },
+  {
+    "exchangeSymbol": "BAKE",
+    "exchCoingeckoId": "bakerytoken",
+    "coingeckoId": "bakerytoken"
+  },
+  {
+    "exchangeSymbol": "TLM",
+    "exchCoingeckoId": "alien-worlds",
+    "coingeckoId": "alien-worlds"
+  },
+  {
+    "exchangeSymbol": "ALPHA",
+    "exchCoingeckoId": "alpha-finance",
+    "coingeckoId": "alpha-finance"
+  },
+  {
+    "exchangeSymbol": "BURGER",
+    "exchCoingeckoId": "burger-swap",
+    "coingeckoId": "burger-swap"
+  },
+  {
+    "exchangeSymbol": "OGN",
+    "exchCoingeckoId": "origin-protocol",
+    "coingeckoId": "origin-protocol"
+  },
+  {
+    "exchangeSymbol": "LPT",
+    "exchCoingeckoId": "livepeer",
+    "coingeckoId": "livepeer"
+  },
+  {
+    "exchangeSymbol": "MIR",
+    "exchCoingeckoId": "mirror-protocol",
+    "coingeckoId": "mirror-protocol"
+  },
+  {
+    "exchangeSymbol": "LINA",
+    "exchCoingeckoId": "linear",
+    "coingeckoId": "linear"
+  },
+  {
+    "exchangeSymbol": "AUDIO",
+    "exchCoingeckoId": "audius",
+    "coingeckoId": "audius"
+  },
+  {
+    "exchangeSymbol": "ATA",
+    "exchCoingeckoId": "automata",
+    "coingeckoId": "automata"
+  },
+  {
+    "exchangeSymbol": "BEL",
+    "exchCoingeckoId": "bella-protocol",
+    "coingeckoId": "bella-protocol"
+  },
+  {
+    "exchangeSymbol": "PROS",
+    "exchCoingeckoId": "prosper",
+    "coingeckoId": "prosper"
+  },
+  {
+    "exchangeSymbol": "ZEN",
+    "exchCoingeckoId": "zencash",
+    "coingeckoId": "zencash"
+  },
+  {
+    "exchangeSymbol": "RLC",
+    "exchCoingeckoId": "iexec-rlc",
+    "coingeckoId": "iexec-rlc"
+  },
+  {
+    "exchangeSymbol": "ONT",
+    "exchCoingeckoId": "ontology",
+    "coingeckoId": "ontology"
+  },
+  {
+    "exchangeSymbol": "MINA",
+    "exchCoingeckoId": "mina-protocol",
+    "coingeckoId": "mina-protocol"
+  },
+  {
+    "exchangeSymbol": "TWT",
+    "exchCoingeckoId": "trust-wallet-token",
+    "coingeckoId": "trust-wallet-token"
+  },
+  {
+    "exchangeSymbol": "ARPA",
+    "exchCoingeckoId": "arpa-chain",
+    "coingeckoId": "arpa-chain"
+  },
+  {
+    "exchangeSymbol": "GTC",
+    "exchCoingeckoId": "gitcoin",
+    "coingeckoId": "gitcoin"
+  },
+  {
+    "exchangeSymbol": "REN",
+    "exchCoingeckoId": "republic-protocol",
+    "coingeckoId": "republic-protocol"
+  },
+  {
+    "exchangeSymbol": "LEVER",
+    "exchCoingeckoId": "lever",
+    "coingeckoId": "lever"
+  },
+  {
+    "exchangeSymbol": "LIT",
+    "exchCoingeckoId": "litentry",
+    "coingeckoId": "litentry"
+  },
+  {
+    "exchangeSymbol": "FLM",
+    "exchCoingeckoId": "flamingo-finance",
+    "coingeckoId": "flamingo-finance"
+  },
+  {
+    "exchangeSymbol": "ALPINE",
+    "exchCoingeckoId": "alpine-f1-team-fan-token",
+    "coingeckoId": "alpine-f1-team-fan-token"
+  },
+  {
+    "exchangeSymbol": "BNT",
+    "exchCoingeckoId": "bancor",
+    "coingeckoId": "bancor"
+  },
+  {
+    "exchangeSymbol": "GHST",
+    "exchCoingeckoId": "aavegotchi",
+    "coingeckoId": "aavegotchi"
+  },
+  {
+    "exchangeSymbol": "CVX",
+    "exchCoingeckoId": "convex-finance",
+    "coingeckoId": "convex-finance"
+  },
+  {
+    "exchangeSymbol": "YFII",
+    "exchCoingeckoId": "yfii-finance",
+    "coingeckoId": "yfii-finance"
+  },
+  {
+    "exchangeSymbol": "AUCTION",
+    "exchCoingeckoId": "auction",
+    "coingeckoId": "auction"
+  },
+  {
+    "exchangeSymbol": "DUSK",
+    "exchCoingeckoId": "dusk-network",
+    "coingeckoId": "dusk-network"
+  },
+  {
+    "exchangeSymbol": "DAR",
+    "exchCoingeckoId": "mines-of-dalarnia",
+    "coingeckoId": "mines-of-dalarnia"
+  },
+  {
+    "exchangeSymbol": "OG",
+    "exchCoingeckoId": "og-fan-token",
+    "coingeckoId": "og-fan-token"
+  },
+  {
+    "exchangeSymbol": "KDA",
+    "exchCoingeckoId": "kadena",
+    "coingeckoId": "kadena"
+  },
+  {
+    "exchangeSymbol": "QLC",
+    "exchCoingeckoId": "qlink",
+    "coingeckoId": "qlink"
+  },
+  {
+    "exchangeSymbol": "NEXO",
+    "exchCoingeckoId": "nexo",
+    "coingeckoId": "nexo"
+  },
+  {
+    "exchangeSymbol": "LOKA",
+    "exchCoingeckoId": "league-of-kingdoms",
+    "coingeckoId": "league-of-kingdoms"
+  },
+  {
+    "exchangeSymbol": "MTL",
+    "exchCoingeckoId": "metal",
+    "coingeckoId": "metal"
+  },
+  {
+    "exchangeSymbol": "RAY",
+    "exchCoingeckoId": "raydium",
+    "coingeckoId": "raydium"
+  },
+  {
+    "exchangeSymbol": "SFP",
+    "exchCoingeckoId": "safepal",
+    "coingeckoId": "safepal"
+  },
+  {
+    "exchangeSymbol": "DGB",
+    "exchCoingeckoId": "digibyte",
+    "coingeckoId": "digibyte"
+  },
+  {
+    "exchangeSymbol": "CVC",
+    "exchCoingeckoId": "civic",
+    "coingeckoId": "civic"
+  },
+  {
+    "exchangeSymbol": "CTK",
+    "exchCoingeckoId": "certik",
+    "coingeckoId": "certik"
+  },
+  {
+    "exchangeSymbol": "JST",
+    "exchCoingeckoId": "just",
+    "coingeckoId": "just"
+  },
+  {
+    "exchangeSymbol": "OOKI",
+    "exchCoingeckoId": "ooki",
+    "coingeckoId": "ooki"
+  },
+  {
+    "exchangeSymbol": "COS",
+    "exchCoingeckoId": "contentos",
+    "coingeckoId": "contentos"
+  },
+  {
+    "exchangeSymbol": "KEY",
+    "exchCoingeckoId": "selfkey",
+    "coingeckoId": "selfkey"
+  },
+  {
+    "exchangeSymbol": "ICX",
+    "exchCoingeckoId": "icon",
+    "coingeckoId": "icon"
+  },
+  {
+    "exchangeSymbol": "FIRO",
+    "exchCoingeckoId": "zcoin",
+    "coingeckoId": "zcoin"
+  },
+  {
+    "exchangeSymbol": "SSV",
+    "exchCoingeckoId": "ssv-network",
+    "coingeckoId": "ssv-network"
+  },
+  {
+    "exchangeSymbol": "BAR",
+    "exchCoingeckoId": "fc-barcelona-fan-token",
+    "coingeckoId": "fc-barcelona-fan-token"
+  },
+  {
+    "exchangeSymbol": "YGG",
+    "exchCoingeckoId": "yield-guild-games",
+    "coingeckoId": "yield-guild-games"
+  },
+  {
+    "exchangeSymbol": "FIS",
+    "exchCoingeckoId": "stafi",
+    "coingeckoId": "stafi"
+  },
+  {
+    "exchangeSymbol": "DODO",
+    "exchCoingeckoId": "dodo",
+    "coingeckoId": "dodo"
+  },
+  {
+    "exchangeSymbol": "SNM",
+    "exchCoingeckoId": "sonm",
+    "coingeckoId": "sonm"
+  },
+  {
+    "exchangeSymbol": "API3",
+    "exchCoingeckoId": "api3",
+    "coingeckoId": "api3"
+  },
+  {
+    "exchangeSymbol": "CITY",
+    "exchCoingeckoId": "manchester-city-fan-token",
+    "coingeckoId": "manchester-city-fan-token"
+  },
+  {
+    "exchangeSymbol": "UFT",
+    "exchCoingeckoId": "unlend-finance",
+    "coingeckoId": "unlend-finance"
+  },
+  {
+    "exchangeSymbol": "DREP",
+    "exchCoingeckoId": "drep-new",
+    "coingeckoId": "drep-new"
+  },
+  {
+    "exchangeSymbol": "STMX",
+    "exchCoingeckoId": "storm",
+    "coingeckoId": "storm"
+  },
+  {
+    "exchangeSymbol": "NKN",
+    "exchCoingeckoId": "nkn",
+    "coingeckoId": "nkn"
+  },
+  {
+    "exchangeSymbol": "DENT",
+    "exchCoingeckoId": "dent",
+    "coingeckoId": "dent"
+  },
+  {
+    "exchangeSymbol": "ERN",
+    "exchCoingeckoId": "ethernity-chain",
+    "coingeckoId": "ethernity-chain"
+  },
+  {
+    "exchangeSymbol": "GTO",
+    "exchCoingeckoId": "gifto",
+    "coingeckoId": "gifto"
+  },
+  {
+    "exchangeSymbol": "GLMR",
+    "exchCoingeckoId": "moonbeam",
+    "coingeckoId": "moonbeam"
+  },
+  {
+    "exchangeSymbol": "VOXEL",
+    "exchCoingeckoId": "voxies",
+    "coingeckoId": "voxies"
+  },
+  {
+    "exchangeSymbol": "ASTR",
+    "exchCoingeckoId": "astar",
+    "coingeckoId": "astar"
+  },
+  {
+    "exchangeSymbol": "SYS",
+    "exchCoingeckoId": "syscoin",
+    "coingeckoId": "syscoin"
+  },
+  {
+    "exchangeSymbol": "PSG",
+    "exchCoingeckoId": "paris-saint-germain-fan-token",
+    "coingeckoId": "paris-saint-germain-fan-token"
+  },
+  {
+    "exchangeSymbol": "AERGO",
+    "exchCoingeckoId": "aergo",
+    "coingeckoId": "aergo"
+  },
+  {
+    "exchangeSymbol": "PNT",
+    "exchCoingeckoId": "pnetwork",
+    "coingeckoId": "pnetwork"
+  },
+  {
+    "exchangeSymbol": "DEXE",
+    "exchCoingeckoId": "dexe",
+    "coingeckoId": "dexe"
+  },
+  {
+    "exchangeSymbol": "FIDA",
+    "exchCoingeckoId": "bonfida",
+    "coingeckoId": "bonfida"
+  },
+  {
+    "exchangeSymbol": "HIGH",
+    "exchCoingeckoId": "highstreet",
+    "coingeckoId": "highstreet"
+  },
+  {
+    "exchangeSymbol": "MOB",
+    "exchCoingeckoId": "mobilecoin",
+    "coingeckoId": "mobilecoin"
+  },
+  {
+    "exchangeSymbol": "RAD",
+    "exchCoingeckoId": "radicle",
+    "coingeckoId": "radicle"
+  },
+  {
+    "exchangeSymbol": "WNXM",
+    "exchCoingeckoId": "wrapped-nxm",
+    "coingeckoId": "wrapped-nxm"
+  },
+  {
+    "exchangeSymbol": "WIN",
+    "exchCoingeckoId": "wink",
+    "coingeckoId": "wink"
+  },
+  {
+    "exchangeSymbol": "MITH",
+    "exchCoingeckoId": "mithril",
+    "coingeckoId": "mithril"
+  },
+  {
+    "exchangeSymbol": "DEGO",
+    "exchCoingeckoId": "dego-finance",
+    "coingeckoId": "dego-finance"
+  },
+  {
+    "exchangeSymbol": "MDX",
+    "exchCoingeckoId": "mdex",
+    "coingeckoId": "mdex"
+  },
+  {
+    "exchangeSymbol": "CHESS",
+    "exchCoingeckoId": "tranchess",
+    "coingeckoId": "tranchess"
+  },
+  {
+    "exchangeSymbol": "ACH",
+    "exchCoingeckoId": "alchemy-pay",
+    "coingeckoId": "alchemy-pay"
+  },
+  {
+    "exchangeSymbol": "POND",
+    "exchCoingeckoId": "marlin",
+    "coingeckoId": "marlin"
+  },
+  {
+    "exchangeSymbol": "LOOM",
+    "exchCoingeckoId": "loom-network-new",
+    "coingeckoId": "loom-network-new"
+  },
+  {
+    "exchangeSymbol": "RIF",
+    "exchCoingeckoId": "rif-token",
+    "coingeckoId": "rif-token"
+  },
+  {
+    "exchangeSymbol": "RNDR",
+    "exchCoingeckoId": "render-token",
+    "coingeckoId": "render-token"
+  },
+  {
+    "exchangeSymbol": "BDOT",
+    "exchCoingeckoId": "binance-wrapped-dot",
+    "coingeckoId": "binance-wrapped-dot"
+  },
+  {
+    "exchangeSymbol": "ALPACA",
+    "exchCoingeckoId": "alpaca-finance",
+    "coingeckoId": "alpaca-finance"
+  },
+  {
+    "exchangeSymbol": "SUN",
+    "exchCoingeckoId": "sun-token",
+    "coingeckoId": "sun-token"
+  },
+  {
+    "exchangeSymbol": "ETHUP",
+    "exchCoingeckoId": "ethup",
+    "coingeckoId": "ethup"
+  },
+  {
+    "exchangeSymbol": "FET",
+    "exchCoingeckoId": "fetch-ai",
+    "coingeckoId": "fetch-ai"
+  },
+  {
+    "exchangeSymbol": "AGLD",
+    "exchCoingeckoId": "adventure-gold",
+    "coingeckoId": "adventure-gold"
+  },
+  {
+    "exchangeSymbol": "JUV",
+    "exchCoingeckoId": "juventus-fan-token",
+    "coingeckoId": "juventus-fan-token"
+  },
+  {
+    "exchangeSymbol": "TORN",
+    "exchCoingeckoId": "tornado-cash",
+    "coingeckoId": "tornado-cash"
+  },
+  {
+    "exchangeSymbol": "FRONT",
+    "exchCoingeckoId": "frontier-token",
+    "coingeckoId": "frontier-token"
+  },
+  {
+    "exchangeSymbol": "ASR",
+    "exchCoingeckoId": "as-roma-fan-token",
+    "coingeckoId": "as-roma-fan-token"
+  },
+  {
+    "exchangeSymbol": "FIO",
+    "exchCoingeckoId": "fio-protocol",
+    "coingeckoId": "fio-protocol"
+  },
+  {
+    "exchangeSymbol": "FLUX",
+    "exchCoingeckoId": "zelcash",
+    "coingeckoId": "zelcash"
+  },
+  {
+    "exchangeSymbol": "MDT",
+    "exchCoingeckoId": "measurable-data-token",
+    "coingeckoId": "measurable-data-token"
+  },
+  {
+    "exchangeSymbol": "ATM",
+    "exchCoingeckoId": "atletico-madrid",
+    "coingeckoId": "atletico-madrid"
+  },
+  {
+    "exchangeSymbol": "CTXC",
+    "exchCoingeckoId": "cortex",
+    "coingeckoId": "cortex"
+  },
+  {
+    "exchangeSymbol": "AKRO",
+    "exchCoingeckoId": "akropolis",
+    "coingeckoId": "akropolis"
+  },
+  {
+    "exchangeSymbol": "VIDT",
+    "exchCoingeckoId": "v-id-blockchain",
+    "coingeckoId": "v-id-blockchain"
+  },
+  {
+    "exchangeSymbol": "ACM",
+    "exchCoingeckoId": "ac-milan-fan-token",
+    "coingeckoId": "ac-milan-fan-token"
+  },
+  {
+    "exchangeSymbol": "DIA",
+    "exchCoingeckoId": "dia-data",
+    "coingeckoId": "dia-data"
+  },
+  {
+    "exchangeSymbol": "STX",
+    "exchCoingeckoId": "blockstack",
+    "coingeckoId": "blockstack"
+  },
+  {
+    "exchangeSymbol": "MFT",
+    "exchCoingeckoId": "mainframe",
+    "coingeckoId": "mainframe"
+  },
+  {
+    "exchangeSymbol": "TFUEL",
+    "exchCoingeckoId": "theta-fuel",
+    "coingeckoId": "theta-fuel"
+  },
+  {
+    "exchangeSymbol": "BEAM",
+    "exchCoingeckoId": "beam",
+    "coingeckoId": "beam"
+  },
+  {
+    "exchangeSymbol": "STPT",
+    "exchCoingeckoId": "stp-network",
+    "coingeckoId": "stp-network"
+  },
+  {
+    "exchangeSymbol": "CTSI",
+    "exchCoingeckoId": "cartesi",
+    "coingeckoId": "cartesi"
+  },
+  {
+    "exchangeSymbol": "KMD",
+    "exchCoingeckoId": "komodo",
+    "coingeckoId": "komodo"
+  },
+  {
+    "exchangeSymbol": "DNT",
+    "exchCoingeckoId": "district0x",
+    "coingeckoId": "district0x"
+  },
+  {
+    "exchangeSymbol": "WABI",
+    "exchCoingeckoId": "wabi",
+    "coingeckoId": "wabi"
+  },
+  {
+    "exchangeSymbol": "SUPER",
+    "exchCoingeckoId": "superfarm",
+    "coingeckoId": "superfarm"
+  },
+  {
+    "exchangeSymbol": "ANT",
+    "exchCoingeckoId": "aragon",
+    "coingeckoId": "aragon"
+  },
+  {
+    "exchangeSymbol": "OM",
+    "exchCoingeckoId": "mantra-dao",
+    "coingeckoId": "mantra-dao"
+  },
+  {
+    "exchangeSymbol": "FOR",
+    "exchCoingeckoId": "force-protocol",
+    "coingeckoId": "force-protocol"
+  },
+  {
+    "exchangeSymbol": "CFX",
+    "exchCoingeckoId": "conflux-token",
+    "coingeckoId": "conflux-token"
+  },
+  {
+    "exchangeSymbol": "WTC",
+    "exchCoingeckoId": "waltonchain",
+    "coingeckoId": "waltonchain"
+  },
+  {
+    "exchangeSymbol": "AUTO",
+    "exchCoingeckoId": "auto",
+    "coingeckoId": "auto"
+  },
+  {
+    "exchangeSymbol": "NULS",
+    "exchCoingeckoId": "nuls",
+    "coingeckoId": "nuls"
+  },
+  {
+    "exchangeSymbol": "AVA",
+    "exchCoingeckoId": "concierge-io",
+    "coingeckoId": "concierge-io"
+  },
+  {
+    "exchangeSymbol": "BSW",
+    "exchCoingeckoId": "biswap",
+    "coingeckoId": "biswap"
+  },
+  {
+    "exchangeSymbol": "TOMO",
+    "exchCoingeckoId": "tomochain",
+    "coingeckoId": "tomochain"
+  },
+  {
+    "exchangeSymbol": "DATA",
+    "exchCoingeckoId": "streamr",
+    "coingeckoId": "streamr"
+  },
+  {
+    "exchangeSymbol": "MBOX",
+    "exchCoingeckoId": "mobox",
+    "coingeckoId": "mobox"
+  },
+  {
+    "exchangeSymbol": "AMP",
+    "exchCoingeckoId": "amp-token",
+    "coingeckoId": "amp-token"
+  },
+  {
+    "exchangeSymbol": "FARM",
+    "exchCoingeckoId": "harvest-finance",
+    "coingeckoId": "harvest-finance"
+  },
+  {
+    "exchangeSymbol": "AION",
+    "exchCoingeckoId": "aion",
+    "coingeckoId": "aion"
+  },
+  {
+    "exchangeSymbol": "ADX",
+    "exchCoingeckoId": "adex",
+    "coingeckoId": "adex"
+  },
+  {
+    "exchangeSymbol": "WAXP",
+    "exchCoingeckoId": "wax",
+    "coingeckoId": "wax"
+  },
+  {
+    "exchangeSymbol": "PERP",
+    "exchCoingeckoId": "perpetual-protocol",
+    "coingeckoId": "perpetual-protocol"
+  },
+  {
+    "exchangeSymbol": "MC",
+    "exchCoingeckoId": "merit-circle",
+    "coingeckoId": "merit-circle"
+  },
+  {
+    "exchangeSymbol": "MOVR",
+    "exchCoingeckoId": "moonriver",
+    "coingeckoId": "moonriver"
+  },
+  {
+    "exchangeSymbol": "TROY",
+    "exchCoingeckoId": "troy",
+    "coingeckoId": "troy"
+  },
+  {
+    "exchangeSymbol": "QKC",
+    "exchCoingeckoId": "quark-chain",
+    "coingeckoId": "quark-chain"
+  },
+  {
+    "exchangeSymbol": "FXS",
+    "exchCoingeckoId": "frax-share",
+    "coingeckoId": "frax-share"
+  },
+  {
+    "exchangeSymbol": "CKB",
+    "exchCoingeckoId": "nervos-network",
+    "coingeckoId": "nervos-network"
+  },
+  {
+    "exchangeSymbol": "ILV",
+    "exchCoingeckoId": "illuvium",
+    "coingeckoId": "illuvium"
+  },
+  {
+    "exchangeSymbol": "IDEX",
+    "exchCoingeckoId": "aurora-dao",
+    "coingeckoId": "aurora-dao"
+  },
+  {
+    "exchangeSymbol": "WRX",
+    "exchCoingeckoId": "wazirx",
+    "coingeckoId": "wazirx"
+  },
+  {
+    "exchangeSymbol": "POWR",
+    "exchCoingeckoId": "power-ledger",
+    "coingeckoId": "power-ledger"
+  },
+  {
+    "exchangeSymbol": "BADGER",
+    "exchCoingeckoId": "badger-dao",
+    "coingeckoId": "badger-dao"
+  },
+  {
+    "exchangeSymbol": "NBS",
+    "exchCoingeckoId": "new-bitshares",
+    "coingeckoId": "new-bitshares"
+  },
+  {
+    "exchangeSymbol": "PHA",
+    "exchCoingeckoId": "pha",
+    "coingeckoId": "pha"
+  },
+  {
+    "exchangeSymbol": "XEM",
+    "exchCoingeckoId": "nem",
+    "coingeckoId": "nem"
+  },
+  {
+    "exchangeSymbol": "TVK",
+    "exchCoingeckoId": "the-virtua-kolect",
+    "coingeckoId": "the-virtua-kolect"
+  },
+  {
+    "exchangeSymbol": "UMA",
+    "exchCoingeckoId": "uma",
+    "coingeckoId": "uma"
+  },
+  {
+    "exchangeSymbol": "VITE",
+    "exchCoingeckoId": "vite",
+    "coingeckoId": "vite"
+  },
+  {
+    "exchangeSymbol": "IRIS",
+    "exchCoingeckoId": "iris-network",
+    "coingeckoId": "iris-network"
+  },
+  {
+    "exchangeSymbol": "TRU",
+    "exchCoingeckoId": "truefi",
+    "coingeckoId": "truefi"
+  },
+  {
+    "exchangeSymbol": "MULTI",
+    "exchCoingeckoId": "multichain",
+    "coingeckoId": "multichain"
+  },
+  {
+    "exchangeSymbol": "BICO",
+    "exchCoingeckoId": "biconomy",
+    "coingeckoId": "biconomy"
+  },
+  {
+    "exchangeSymbol": "CVP",
+    "exchCoingeckoId": "concentrated-voting-power",
+    "coingeckoId": "concentrated-voting-power"
+  },
+  {
+    "exchangeSymbol": "QI",
+    "exchCoingeckoId": "benqi",
+    "coingeckoId": "benqi"
+  },
+  {
+    "exchangeSymbol": "FORTH",
+    "exchCoingeckoId": "ampleforth-governance-token",
+    "coingeckoId": "ampleforth-governance-token"
+  },
+  {
+    "exchangeSymbol": "CREAM",
+    "exchCoingeckoId": "cream-2",
+    "coingeckoId": "cream-2"
+  },
+  {
+    "exchangeSymbol": "PLA",
+    "exchCoingeckoId": "playdapp",
+    "coingeckoId": "playdapp"
+  },
+  {
+    "exchangeSymbol": "HARD",
+    "exchCoingeckoId": "kava-lend",
+    "coingeckoId": "kava-lend"
+  },
+  {
+    "exchangeSymbol": "ACA",
+    "exchCoingeckoId": "acala",
+    "coingeckoId": "acala"
+  },
+  {
+    "exchangeSymbol": "BETA",
+    "exchCoingeckoId": "beta-finance",
+    "coingeckoId": "beta-finance"
+  },
+  {
+    "exchangeSymbol": "SNT",
+    "exchCoingeckoId": "status",
+    "coingeckoId": "status"
+  },
+  {
+    "exchangeSymbol": "NMR",
+    "exchCoingeckoId": "numeraire",
+    "coingeckoId": "numeraire"
+  },
+  {
+    "exchangeSymbol": "XNO",
+    "exchCoingeckoId": "nano",
+    "coingeckoId": "nano"
+  },
+  {
+    "exchangeSymbol": "SC",
+    "exchCoingeckoId": "siacoin",
+    "coingeckoId": "siacoin"
+  },
+  {
+    "exchangeSymbol": "OXT",
+    "exchCoingeckoId": "orchid-protocol",
+    "coingeckoId": "orchid-protocol"
+  },
+  {
+    "exchangeSymbol": "PROM",
+    "exchCoingeckoId": "prometeus",
+    "coingeckoId": "prometeus"
+  },
+  {
+    "exchangeSymbol": "LSK",
+    "exchCoingeckoId": "lisk",
+    "coingeckoId": "lisk"
+  },
+  {
+    "exchangeSymbol": "EPX",
+    "exchCoingeckoId": "ellipsis-x",
+    "coingeckoId": "ellipsis-x"
+  },
+  {
+    "exchangeSymbol": "DOCK",
+    "exchCoingeckoId": "dock",
+    "coingeckoId": "dock"
+  },
+  {
+    "exchangeSymbol": "DF",
+    "exchCoingeckoId": "dforce-token",
+    "coingeckoId": "dforce-token"
+  },
+  {
+    "exchangeSymbol": "GAS",
+    "exchCoingeckoId": "gas",
+    "coingeckoId": "gas"
+  },
+  {
+    "exchangeSymbol": "REQ",
+    "exchCoingeckoId": "request-network",
+    "coingeckoId": "request-network"
+  },
+  {
+    "exchangeSymbol": "LTO",
+    "exchCoingeckoId": "lto-network",
+    "coingeckoId": "lto-network"
+  },
+  {
+    "exchangeSymbol": "BIFI",
+    "exchCoingeckoId": "beefy-finance",
+    "coingeckoId": "beefy-finance"
+  },
+  {
+    "exchangeSymbol": "TCT",
+    "exchCoingeckoId": "tokenclub",
+    "coingeckoId": "tokenclub"
+  },
+  {
+    "exchangeSymbol": "SCRT",
+    "exchCoingeckoId": "secret",
+    "coingeckoId": "secret"
+  },
+  {
+    "exchangeSymbol": "POLS",
+    "exchCoingeckoId": "polkastarter",
+    "coingeckoId": "polkastarter"
+  },
+  {
+    "exchangeSymbol": "WAN",
+    "exchCoingeckoId": "wanchain",
+    "coingeckoId": "wanchain"
+  },
+  {
+    "exchangeSymbol": "VGX",
+    "exchCoingeckoId": "ethos",
+    "coingeckoId": "ethos"
+  },
+  {
+    "exchangeSymbol": "STRAX",
+    "exchCoingeckoId": "stratis",
+    "coingeckoId": "stratis"
+  },
+  {
+    "exchangeSymbol": "ARK",
+    "exchCoingeckoId": "ark",
+    "coingeckoId": "ark"
+  },
+  {
+    "exchangeSymbol": "PIVX",
+    "exchCoingeckoId": "pivx",
+    "coingeckoId": "pivx"
+  },
+  {
+    "exchangeSymbol": "HIVE",
+    "exchCoingeckoId": "hive",
+    "coingeckoId": "hive"
+  },
+  {
+    "exchangeSymbol": "RARE",
+    "exchCoingeckoId": "superrare",
+    "coingeckoId": "superrare"
+  },
+  {
+    "exchangeSymbol": "BTG",
+    "exchCoingeckoId": "bitcoin-gold",
+    "coingeckoId": "bitcoin-gold"
+  },
+  {
+    "exchangeSymbol": "T",
+    "exchCoingeckoId": "threshold-network-token",
+    "coingeckoId": "threshold-network-token"
+  },
+  {
+    "exchangeSymbol": "PERL",
+    "exchCoingeckoId": "perlin",
+    "coingeckoId": "perlin"
+  },
+  {
+    "exchangeSymbol": "XVG",
+    "exchCoingeckoId": "verge",
+    "coingeckoId": "verge"
+  },
+  {
+    "exchangeSymbol": "BTS",
+    "exchCoingeckoId": "bitshares",
+    "coingeckoId": "bitshares"
+  },
+  {
+    "exchangeSymbol": "REP",
+    "exchCoingeckoId": "augur",
+    "coingeckoId": "augur"
+  },
+  {
+    "exchangeSymbol": "REI",
+    "exchCoingeckoId": "rei-network",
+    "coingeckoId": "rei-network"
+  },
+  {
+    "exchangeSymbol": "CLV",
+    "exchCoingeckoId": "clover-finance",
+    "coingeckoId": "clover-finance"
+  },
+  {
+    "exchangeSymbol": "ALCX",
+    "exchCoingeckoId": "alchemix",
+    "coingeckoId": "alchemix"
+  },
+  {
+    "exchangeSymbol": "COCOS",
+    "exchCoingeckoId": "cocos-bcx",
+    "coingeckoId": "cocos-bcx"
+  },
+  {
+    "exchangeSymbol": "GLM",
+    "exchCoingeckoId": "golem",
+    "coingeckoId": "golem"
+  },
+  {
+    "exchangeSymbol": "XVS",
+    "exchCoingeckoId": "venus",
+    "coingeckoId": "venus"
+  },
+  {
+    "exchangeSymbol": "UTK",
+    "exchCoingeckoId": "utrust",
+    "coingeckoId": "utrust"
+  },
+  {
+    "exchangeSymbol": "TKO",
+    "exchCoingeckoId": "tokocrypto",
+    "coingeckoId": "tokocrypto"
+  },
+  {
+    "exchangeSymbol": "VTHO",
+    "exchCoingeckoId": "vethor-token",
+    "coingeckoId": "vethor-token"
+  },
+  {
+    "exchangeSymbol": "GNO",
+    "exchCoingeckoId": "gnosis",
+    "coingeckoId": "gnosis"
+  },
+  {
+    "exchangeSymbol": "JOE",
+    "exchCoingeckoId": "joe",
+    "coingeckoId": "joe"
+  },
+  {
+    "exchangeSymbol": "MLN",
+    "exchCoingeckoId": "melon",
+    "coingeckoId": "melon"
+  },
+  {
+    "exchangeSymbol": "FUN",
+    "exchCoingeckoId": "funfair",
+    "coingeckoId": "funfair"
+  },
+  {
+    "exchangeSymbol": "TRIBE",
+    "exchCoingeckoId": "tribe-2",
+    "coingeckoId": "tribe-2"
+  },
+  {
+    "exchangeSymbol": "MBL",
+    "exchCoingeckoId": "moviebloc",
+    "coingeckoId": "moviebloc"
+  },
+  {
+    "exchangeSymbol": "IQ",
+    "exchCoingeckoId": "everipedia",
+    "coingeckoId": "everipedia"
+  },
+  {
+    "exchangeSymbol": "QUICK",
+    "exchCoingeckoId": "quick",
+    "coingeckoId": "quick"
+  },
+  {
+    "exchangeSymbol": "ORN",
+    "exchCoingeckoId": "orion-protocol",
+    "coingeckoId": "orion-protocol"
+  },
+  {
+    "exchangeSymbol": "AGIX",
+    "exchCoingeckoId": "singularitynet",
+    "coingeckoId": "singularitynet"
+  },
+  {
+    "exchangeSymbol": "ARDR",
+    "exchCoingeckoId": "ardor",
+    "coingeckoId": "ardor"
+  },
+  {
+    "exchangeSymbol": "ONG",
+    "exchCoingeckoId": "ong",
+    "coingeckoId": "ong"
+  },
+  {
+    "exchangeSymbol": "DCR",
+    "exchCoingeckoId": "decred",
+    "coingeckoId": "decred"
+  },
+  {
+    "exchangeSymbol": "STEEM",
+    "exchCoingeckoId": "steem",
+    "coingeckoId": "steem"
+  },
+  {
+    "exchangeSymbol": "NBT",
+    "exchCoingeckoId": "nanobyte",
+    "coingeckoId": "nanobyte"
+  },
+  {
+    "exchangeSymbol": "BTTC",
+    "exchCoingeckoId": "bittorrent",
+    "coingeckoId": "bittorrent"
+  },
+  {
+    "exchangeSymbol": "USDC",
+    "exchCoingeckoId": "usd-coin",
+    "coingeckoId": "usd-coin"
+  },
+  {
+    "exchangeSymbol": "TUSD",
+    "exchCoingeckoId": "true-usd",
+    "coingeckoId": "true-usd"
+  },
+  {
+    "exchangeSymbol": "USDP",
+    "exchCoingeckoId": "paxos-standard",
+    "coingeckoId": "paxos-standard"
+  }
+]

@@ -741,8 +741,8 @@
       "linux": null
     },
     "mobile": {
-      "native": "ledgerlive:",
-      "universal": "https://r354.adj.st"
+      "native": "ledgerlive://wc",
+      "universal": ""
     },
     "desktop": {
       "native": "ledgerlive:",

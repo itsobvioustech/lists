@@ -742,7 +742,7 @@
       "linux": null
     },
     "mobile": {
-      "native": "ledgerlive://wc?uri=",
+      "native": "ledgerlive://",
       "universal": ""
     },
     "desktop": {

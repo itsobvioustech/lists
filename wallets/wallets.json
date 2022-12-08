@@ -742,8 +742,8 @@
       "linux": null
     },
     "mobile": {
-      "native": "ledgerlive://",
-      "universal": ""
+      "native": "ledgerlive:",
+      "universal": "ledgerlive:/"
     },
     "desktop": {
       "native": "ledgerlive:",

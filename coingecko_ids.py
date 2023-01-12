@@ -11,6 +11,7 @@ def get_coingecko_ids() -> dict[ChainId, dict[Address, str]]:
         "361": "theta",
         "592": "astar",
         "70": "hoo-smart-chain",
+        "106": "velas",
         "122": "fuse",
         "42262": "oasis",
         "128": "huobi-token",

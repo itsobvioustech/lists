@@ -23,7 +23,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Ftm, 311 tokens
 - Gnosis, 261 tokens
 - Arbitrum, 208 tokens
-- Cronos, 142 tokens
+- Cronos, 141 tokens
 - Aurora, 131 tokens
 - Optimism, 107 tokens
 - Moonriver, 81 tokens

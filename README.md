@@ -25,7 +25,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Arbitrum, 213 tokens
 - Cronos, 141 tokens
 - Aurora, 132 tokens
-- Optimism, 110 tokens
+- Optimism, 111 tokens
 - Moonriver, 81 tokens
 - Moonbeam, 64 tokens
 - Celo, 42 tokens

@@ -28,7 +28,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Optimism, 111 tokens
 - Moonriver, 81 tokens
 - Moonbeam, 64 tokens
-- Celo, 42 tokens
+- Celo, 43 tokens
 - Fuse, 20 tokens
 - Velas, 13 tokens
 - Evmos, 11 tokens

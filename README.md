@@ -22,11 +22,11 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Avax, 317 tokens
 - Ftm, 308 tokens
 - Arbitrum, 222 tokens
-- Gnosis, 159 tokens
-- Cronos, 140 tokens
+- Gnosis, 160 tokens
+- Cronos, 141 tokens
 - Aurora, 132 tokens
 - Optimism, 118 tokens
-- Moonriver, 80 tokens
+- Moonriver, 81 tokens
 - Moonbeam, 65 tokens
 - Celo, 44 tokens
 - Fuse, 20 tokens

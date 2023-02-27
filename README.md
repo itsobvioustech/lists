@@ -21,7 +21,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Polygon, 593 tokens
 - Avax, 317 tokens
 - Ftm, 308 tokens
-- Arbitrum, 222 tokens
+- Arbitrum, 220 tokens
 - Gnosis, 160 tokens
 - Cronos, 141 tokens
 - Aurora, 132 tokens

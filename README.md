@@ -30,7 +30,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Moonbeam, 80 tokens
 - Celo, 70 tokens
 - Evmos, 49 tokens
-- Fuse, 31 tokens
+- Fuse, 32 tokens
 - Velas, 13 tokens
 
 ## Run aggregation script yourself

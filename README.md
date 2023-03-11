@@ -16,9 +16,9 @@ We collect tokenlists from github repos or open APIs from various platforms, cur
 ## Chains with trusted tokens
 Here are chains presented in our tokenlists with current token count. You can find out more in `/tokens` folder.
 Token counts are approximate and may vary as providers update their tokenlists.
-- Ethereum, 1594 tokens
-- Bsc, 1062 tokens
-- Polygon, 654 tokens
+- Ethereum, 1595 tokens
+- Bsc, 1061 tokens
+- Polygon, 655 tokens
 - Ftm, 326 tokens
 - Avax, 323 tokens
 - Gnosis, 289 tokens

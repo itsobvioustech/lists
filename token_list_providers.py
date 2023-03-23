@@ -17,7 +17,8 @@ class TokenListProvider:
     _by_chain_id = False
     _get_chain_id_key = False
     _tokens_to_list = False
-    _check_chain_id = False  # True if tokenlist contains all chains at once and we should filter each chain
+    # True if tokenlist contains all chains at once and we should filter each chain
+    _check_chain_id = False
 
     @classmethod
     def _filter_tokens(cls, tokens: list[Token], chain_id: str) -> list[Token]:
@@ -28,11 +29,14 @@ class TokenListProvider:
             try:
                 token["address"] = token["address"].strip()
                 if token["address"].startswith("0x"):
-                    token["address"] = Web3.toChecksumAddress(token["address"])
-                cg_id = coingecko_ids.get(chain_id, {}).get(token["address"].lower())
+                    token["address"] = Web3.to_checksum_address(
+                        token["address"])
+                cg_id = coingecko_ids.get(chain_id, {}).get(
+                    token["address"].lower())
                 if cg_id is None and token["address"].lower() in NATIVE_ADDRESSES:
                     cg_id = NATIVE_TOKEN_COIN_GECKO_IDS[chain_id]
-                logo = token.get("logoURI") or token.get("icon") or token.get("image")
+                logo = token.get("logoURI") or token.get(
+                    "icon") or token.get("image")
                 if logo and logo.startswith('//'):
                     logo = 'https:' + logo
 
@@ -57,8 +61,10 @@ class TokenListProvider:
                         chainId=chain_id,
                         logoURI=logo,
                         coingeckoId=cg_id,
-                        marketCap=coingecko_mcap.get(cg_id, {}).get("market_cap", 0),
-                        marketCapRank=coingecko_mcap.get(cg_id, {}).get("market_cap_rank", 0)
+                        marketCap=coingecko_mcap.get(
+                            cg_id, {}).get("market_cap", 0),
+                        marketCapRank=coingecko_mcap.get(
+                            cg_id, {}).get("market_cap_rank", 0)
                     )
                     res.append(t)
             except Exception as exc:
@@ -79,10 +85,12 @@ class TokenListProvider:
             num_retries = 0
             while resp.status_code != 200:
                 if num_retries > 60:
-                    raise Exception(f"failed to get tokenlits {cls.base_url} after {num_retries} retries")
+                    raise Exception(
+                        f"failed to get tokenlits {cls.base_url} after {num_retries} retries")
                 sleep_time = int(resp.headers.get("Retry-After", 1))
                 num_retries += 1
-                print(f"[{cls.name}] {chain_id} {chain_name} waiting {sleep_time} seconds")
+                print(
+                    f"[{cls.name}] {chain_id} {chain_name} waiting {sleep_time} seconds")
                 await asyncio.sleep(sleep_time)
                 resp = await httpx.AsyncClient().get(cls.base_url.format(chain_id if cls._by_chain_id else chain_name))
 
@@ -131,7 +139,7 @@ class CoinGecko(TokenListProvider):
         "1285": "moonriver",
         "25": "cronos",
         "106": "velas",
-        # "288": "boba",
+        "288": "boba",
         # "10000": "smartbch",
         "1313161554": "aurora",
         # "1666600000": "harmony-shard-0",
@@ -208,6 +216,7 @@ class OneInch(TokenListProvider):
     _by_chain_id = True
     _tokens_to_list = True
 
+
 class OpenOcean(TokenListProvider):
     # TODO: maybe more, check all ids from coingecko
     name = "openocean"
@@ -220,7 +229,7 @@ class OpenOcean(TokenListProvider):
         "250": "fantom",
         "10": "optimistic-ethereum",
         "137": "polygon-pos",
-        # "288": "boba",
+        "288": "boba",
         "100": "xdai-gnosis",
         # "128": "heco",
         "1": "ethereum",
@@ -389,6 +398,7 @@ class Lifinance(TokenListProvider):
         '122': '122',
         '137': '137',
         '250': '250',
+        '288': '288',
         '1284': '1284',
         '1285': '1285',
         '9001': '9001',
@@ -400,6 +410,8 @@ class Lifinance(TokenListProvider):
     }
 
 # Duplicating LIFI to get all tokens for these chains
+
+
 class xLifinance(TokenListProvider):
     name = "xlifinance"
     base_url = "https://li.quest/v1/tokens?chains={}"
@@ -408,8 +420,10 @@ class xLifinance(TokenListProvider):
     chains = {
         '106': '106',
         '122': '122',
+        '288': '288',
         '9001': '9001',
     }
+
 
 class Dfyn(TokenListProvider):
     name = "dfyn"
@@ -442,6 +456,7 @@ class Pangolin(TokenListProvider):
     _check_chain_id = True
 
     chains = {'43114': 43114}
+
 
 class ArbitrumBridge(TokenListProvider):
     name = "arbitrum_bridge"
@@ -496,7 +511,7 @@ tokenlists_providers = [
     # MojitoSwap,
     CronaSwapLists,
     Ubeswap,
-    # OolongSwap,
+    OolongSwap,
     # CapricornFinance,
     # Dfyn,
     # RouterProtocol,

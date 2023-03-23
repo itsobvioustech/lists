@@ -17,7 +17,7 @@ We collect tokenlists from github repos or open APIs from various platforms, cur
 Here are chains presented in our tokenlists with current token count. You can find out more in `/tokens` folder.
 Token counts are approximate and may vary as providers update their tokenlists.
 - Ethereum, 1596 tokens
-- Bsc, 1067 tokens
+- Bsc, 1068 tokens
 - Polygon, 655 tokens
 - Ftm, 324 tokens
 - Avax, 322 tokens
@@ -30,6 +30,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Moonbeam, 81 tokens
 - Celo, 71 tokens
 - Evmos, 49 tokens
+- Boba, 41 tokens
 - Fuse, 31 tokens
 - Velas, 13 tokens
 

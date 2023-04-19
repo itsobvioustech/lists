@@ -32,7 +32,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Evmos, 49 tokens
 - Boba, 40 tokens
 - Fuse, 31 tokens
-- Velas, 14 tokens
+- Velas, 13 tokens
 
 ## Run aggregation script yourself
 Install requirements

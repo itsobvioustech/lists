@@ -286,6 +286,19 @@ class QuickSwap(TokenListProvider):
         "137": "polygon"
     }
 
+class QuickSwapZkEvm(TokenListProvider):
+    name = "quickzkevm"
+    base_url = "https://raw.githubusercontent.com/sameepsi/quickswap-default-token-list/master/src/tokens/zkevm.json"
+    chains = {
+        "1101": "zkevm"
+    }
+
+class XQuickSwapZkEvm(TokenListProvider):
+    name = "xquickzkevm"
+    base_url = "https://raw.githubusercontent.com/sameepsi/quickswap-default-token-list/master/src/tokens/zkevm.json"
+    chains = {
+        "1101": "zkevm"
+    }
 
 class FuseSwapTokenLists(TokenListProvider):
     name = "fuseswap"
@@ -424,7 +437,6 @@ class xLifinance(TokenListProvider):
         '9001': '9001',
     }
 
-
 class Dfyn(TokenListProvider):
     name = "dfyn"
     base_url = "https://raw.githubusercontent.com/dfyn/new-host/main/list-token.tokenlist.json"
@@ -528,6 +540,8 @@ tokenlists_providers = [
     Sushiswap,
     OpenOcean,
     QuickSwap,
+    QuickSwapZkEvm,
+    XQuickSwapZkEvm,
     CoinGecko,
     Uniswap,
     OneInch,

@@ -135,6 +135,7 @@ class CoinGecko(TokenListProvider):
         "42220": "celo",
         "10": "optimistic-ethereum",
         "137": "polygon-pos",
+        "1101": "polygon-zkevm",
         "43114": "avalanche",
         "1285": "moonriver",
         "25": "cronos",

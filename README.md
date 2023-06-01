@@ -32,7 +32,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Evmos, 46 tokens
 - Boba, 32 tokens
 - Fuse, 30 tokens
-- Zkevm, 8 tokens
+- Zkevm, 11 tokens
 
 ## Run aggregation script yourself
 Install requirements

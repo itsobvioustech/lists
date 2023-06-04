@@ -23,7 +23,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Avax, 318 tokens
 - Arbitrum, 287 tokens
 - Gnosis, 195 tokens
-- Optimism, 142 tokens
+- Optimism, 144 tokens
 - Cronos, 138 tokens
 - Aurora, 133 tokens
 - Moonriver, 101 tokens

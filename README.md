@@ -20,7 +20,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Bsc, 1024 tokens
 - Polygon, 652 tokens
 - Avax, 321 tokens
-- Arbitrum, 302 tokens
+- Arbitrum, 303 tokens
 - Ftm, 294 tokens
 - Gnosis, 195 tokens
 - Optimism, 145 tokens

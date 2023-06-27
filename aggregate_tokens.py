@@ -48,6 +48,10 @@ async def collect_trusted_tokens() -> dict[ChainId, dict[Address, Token]]:
     trusted = {k: v for k, v in trusted.items() if len(v) > 0}
     # trusted = {k: list(sorted(v.values(), key=lambda x: x['marketCap'], reverse=True)) for k, v in trusted.items()}
     for chain_id, tokens in trusted.items():
+        for addr, token in tokens.items():
+            del token["listedIn"]
+            del token["marketCap"]
+        
         filename = f"{TOKENLISTS_FOLDER}/{CHAIN_NAMES_BY_ID[chain_id]}.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(tokens, f, ensure_ascii=False)

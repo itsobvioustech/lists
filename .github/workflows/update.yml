@@ -34,5 +34,5 @@ jobs:
           aws_key_id: ${{ secrets.AWS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws_bucket: ${{ secrets.AWS_BUCKET }}
-          source_dir: $S3_SOURCE_DIR
-          destination_dir: $S3_OUTPUT_DIR
+          source_dir: ${{ vars.S3_SOURCE_DIR }}
+          destination_dir: ${{ vars.S3_OUTPUT_DIR }}

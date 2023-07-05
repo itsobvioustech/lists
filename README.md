@@ -19,10 +19,10 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Ethereum, 1408 tokens
 - Bsc, 1006 tokens
 - Polygon, 564 tokens
-- Avax, 307 tokens
+- Avax, 306 tokens
 - Arbitrum, 295 tokens
 - Ftm, 278 tokens
-- Gnosis, 196 tokens
+- Gnosis, 195 tokens
 - Optimism, 133 tokens
 - Aurora, 127 tokens
 - Cronos, 120 tokens

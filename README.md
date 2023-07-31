@@ -17,7 +17,7 @@ We collect tokenlists from github repos or open APIs from various platforms, cur
 Here are chains presented in our tokenlists with current token count. You can find out more in `/tokens` folder.
 Token counts are approximate and may vary as providers update their tokenlists.
 - Ethereum, 1414 tokens
-- Bsc, 1008 tokens
+- Bsc, 1009 tokens
 - Polygon, 563 tokens
 - Avax, 311 tokens
 - Arbitrum, 303 tokens

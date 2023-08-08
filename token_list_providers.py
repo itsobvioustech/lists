@@ -156,6 +156,9 @@ class Uniswap(TokenListProvider):
     name = "uniswap"
     base_url = "https://raw.githubusercontent.com/Uniswap/default-token-list/main/src/tokens/{}.json"
     chains = {
+        "42161": "arbitrum",
+        "43114": "avalanche",
+        "8453": "base",
         # "5": "goerli",
         # "42": "kovan",
         "1": "mainnet",
@@ -168,14 +171,17 @@ class Uniswap(TokenListProvider):
 
 class Sushiswap(TokenListProvider):
     name = "sushiswap"
-    base_url = "https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/{}.json"
+    base_url = "https://raw.githubusercontent.com/sushiswap/list/master/lists/token-lists/default-token-list/tokens/{}.json"
+    # https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/{}.json
     chains = {
         "42161": "arbitrum",
         "43114": "avalanche",
         # "97": "bsc-testnet",
+        "8453": "base",
         "56": "bsc",
         "42220": "celo",
         # "1024": "clover",
+        "1": "ethereum",
         # "4002": "fantom-testnet",
         "250": "fantom",
         # "43113": "fuji",
@@ -186,19 +192,18 @@ class Sushiswap(TokenListProvider):
         # "256": "heco-testnet",
         # "128": "heco",
         # "42": "kovan",
-        "1": "mainnet",
         # "80001": "matic-testnet",
-        "137": "matic",
         # "1287": "moonbase",
         "1285": "moonriver",
         "1284": "moonbeam",
         # "65": "okex-testnet",
         # "66": "okex",
         # "11297108109": "palm",
+        "137": "polygon",
         # "4": "rinkeby",
         # "3": "ropsten",
         # "40": "telos",
-        "100": "xdai"
+        "100": "xdai",
     }
 
 

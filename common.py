@@ -45,6 +45,7 @@ CHAIN_NAMES_BY_ID = {
     '70': 'hoo',
     '80001': 'mumbai',
     '82': 'meter',
+    '8453': 'base',
     '88': 'tomochain',
     '97': 'bsc-testnet',
     '9001': 'evmos',

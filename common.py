@@ -118,6 +118,7 @@ NATIVE_TOKEN_COIN_GECKO_IDS = {
     '70': 'hoo',
     '80001': 'mumbai',
     '82': 'meter',
+    '8453': 'ethereum',
     '88': 'tomochain',
     '97': 'bsc-testnet',
     '9001': 'evmos',

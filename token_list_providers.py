@@ -219,10 +219,12 @@ class OneInch(TokenListProvider):
     name = "1inch"
     base_url = "https://api.1inch.dev/token/v1.2/{}/token-list"
     chains = {
+        "1313161554": "aurora",
         "1": "ethereum",
         "10": "optimism",
         "8453": "base",
         "56": "bsc",
+        "250": "fantom",
         "100": "gnosis",
         "137": "polygon",
         "43114": "avalanche",
@@ -230,6 +232,7 @@ class OneInch(TokenListProvider):
     }
     _by_chain_id = True
     # _tokens_to_list = True
+    # PLEASE GET AUTH TOKEN FROM 1INCH - https://portal.1inch.dev/dashboard
     headers = {
         "Authorization": f"Bearer {os.environ['ONEINCH_API_KEY']}"
     }

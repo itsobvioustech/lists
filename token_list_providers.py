@@ -3,6 +3,7 @@ import json
 from collections import defaultdict
 
 import httpx
+import os
 from web3 import Web3
 
 from coingecko_ids import coingecko_ids
@@ -19,6 +20,7 @@ class TokenListProvider:
     _tokens_to_list = False
     # True if tokenlist contains all chains at once and we should filter each chain
     _check_chain_id = False
+    headers: dict[str, str]
 
     @classmethod
     def _filter_tokens(cls, tokens: list[Token], chain_id: str) -> list[Token]:
@@ -78,7 +80,9 @@ class TokenListProvider:
         for chain_id, chain_name in cls.chains.items():
             try:
                 resp = await httpx.AsyncClient().get(
-                    cls.base_url.format(chain_id if cls._by_chain_id else chain_name))
+                    cls.base_url.format(chain_id if cls._by_chain_id else chain_name),
+                    headers=cls.headers if hasattr(cls, "headers") else None
+                )
             except httpx.ReadTimeout:
                 await asyncio.sleep(0.5)
                 continue
@@ -92,12 +96,16 @@ class TokenListProvider:
                 print(
                     f"[{cls.name}] {chain_id} {chain_name} waiting {sleep_time} seconds")
                 await asyncio.sleep(sleep_time)
-                resp = await httpx.AsyncClient().get(cls.base_url.format(chain_id if cls._by_chain_id else chain_name))
+                resp = await httpx.AsyncClient().get(
+                    cls.base_url.format(chain_id if cls._by_chain_id else chain_name),
+                    headers=cls.headers if hasattr(cls, "headers") else None
+                )
 
             try:
                 tokenlist = resp.json()
             except:
                 tokenlist = json.loads(resp.text)
+
             if "tokens" in tokenlist:
                 tokens = tokenlist["tokens"]
             elif "data" in tokenlist:
@@ -209,10 +217,11 @@ class Sushiswap(TokenListProvider):
 
 class OneInch(TokenListProvider):
     name = "1inch"
-    base_url = "https://api.1inch.io/v4.0/{}/tokens"
+    base_url = "https://api.1inch.dev/token/v1.2/{}/token-list"
     chains = {
         "1": "ethereum",
         "10": "optimism",
+        "8453": "base",
         "56": "bsc",
         "100": "gnosis",
         "137": "polygon",
@@ -220,7 +229,10 @@ class OneInch(TokenListProvider):
         "42161": "arbitrum",
     }
     _by_chain_id = True
-    _tokens_to_list = True
+    # _tokens_to_list = True
+    headers = {
+        "Authorization": f"Bearer {os.environ['ONEINCH_API_KEY']}"
+    }
 
 
 class OpenOcean(TokenListProvider):

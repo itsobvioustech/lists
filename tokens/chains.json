@@ -1,0 +1,714 @@
+[
+  {
+    "key": "eth",
+    "chainType": "EVM",
+    "name": "Ethereum",
+    "coin": "ETH",
+    "id": 1,
+    "unmarshal": "ethereum",
+    "unmarshalCoinId": 60,
+    "transak": "ethereum",
+    "ramp": "ETH",
+    "coinGeckoId": "ethereum",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fethereum.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x1",
+      "blockExplorerUrls": [
+        "https://etherscan.io/"
+      ],
+      "chainName": "Ethereum Mainnet",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/eth"
+      ]
+    }
+  },
+  {
+    "key": "pol",
+    "chainType": "EVM",
+    "name": "Polygon",
+    "coin": "MATIC",
+    "id": 137,
+    "unmarshal": "matic",
+    "unmarshalCoinId": 137,
+    "transak": "polygon",
+    "ramp": "MATIC",
+    "coinGeckoId": "polygon-pos",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fpolygon.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x89",
+      "blockExplorerUrls": [
+        "https://polygonscan.com/"
+      ],
+      "chainName": "Matic(Polygon) Mainnet",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18,
+        "coinGeckoId": "matic-network"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/polygon"
+      ]
+    }
+  },
+  {
+    "key": "bsc",
+    "chainType": "EVM",
+    "name": "BSC",
+    "coin": "BNB",
+    "id": 56,
+    "unmarshal": "bsc",
+    "unmarshalCoinId": 10000714,
+    "transak": "bsc",
+    "ramp": "BSC",
+    "coinGeckoId": "binance-smart-chain",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fbsc.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x38",
+      "blockExplorerUrls": [
+        "https://bscscan.com/"
+      ],
+      "chainName": "Binance Smart Chain Mainnet",
+      "nativeCurrency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18,
+        "coinGeckoId": "binancecoin"
+      },
+      "rpcUrls": [
+        "https://bsc-dataseed.binance.org/",
+        "https://bsc-dataseed1.defibit.io/",
+        "https://bsc-dataseed1.ninicoin.io/",
+        "https://rpc.ankr.com/bsc"
+      ]
+    }
+  },
+  {
+    "key": "arb",
+    "chainType": "EVM",
+    "name": "Arbitrum One",
+    "coin": "ETH",
+    "id": 42161,
+    "unmarshal": "arbitrum",
+    "unmarshalCoinId": 42161,
+    "transak": "arbitrum",
+    "ramp": "ARBITRUM",
+    "coinGeckoId": "arbitrum-one",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Farbitrum.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xa4b1",
+      "blockExplorerUrls": [
+        "https://arbiscan.io/"
+      ],
+      "chainName": "Arbitrum One",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://arb1.arbitrum.io/rpc"
+      ]
+    }
+  },
+  {
+    "key": "ava",
+    "chainType": "EVM",
+    "name": "Avalanche",
+    "coin": "AVAX",
+    "id": 43114,
+    "unmarshal": "avalanche",
+    "unmarshalCoinId": 43114,
+    "transak": "avaxcchain",
+    "ramp": "AVAX",
+    "coinGeckoId": "avalanche",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Favalanche.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xa86a",
+      "blockExplorerUrls": [
+        "https://cchain.explorer.avax.network/"
+      ],
+      "chainName": "Avalanche Mainnet",
+      "nativeCurrency": {
+        "name": "AVAX",
+        "symbol": "AVAX",
+        "decimals": 18,
+        "coinGeckoId": "avalanche-2"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/avalanche"
+      ]
+    }
+  },
+  {
+    "key": "bas",
+    "chainType": "EVM",
+    "name": "Base",
+    "coin": "ETH",
+    "id": 8453,
+    "unmarshal": "base",
+    "unmarshalCoinId": 8453,
+    "transak": null,
+    "ramp": "BASE",
+    "coinGeckoId": "base",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fbase.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x2105",
+      "blockExplorerUrls": [
+        "https://basescan.org/"
+      ],
+      "chainName": "Base",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://mainnet.base.org"
+      ]
+    }
+  },
+  {
+    "key": "opt",
+    "chainType": "EVM",
+    "name": "Optimism",
+    "coin": "ETH",
+    "id": 10,
+    "unmarshal": "optimism",
+    "unmarshalCoinId": 10,
+    "transak": "optimism",
+    "ramp": "OPTIMISM",
+    "coinGeckoId": "optimistic-ethereum",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Foptimism.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xa",
+      "blockExplorerUrls": [
+        "https://optimistic.etherscan.io/"
+      ],
+      "chainName": "Optimism",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://mainnet.optimism.io/"
+      ]
+    }
+  },
+  {
+    "key": "dai",
+    "chainType": "EVM",
+    "name": "Gnosis",
+    "coin": "XDAI",
+    "id": 100,
+    "unmarshal": "gnosis",
+    "unmarshalCoinId": 100,
+    "transak": null,
+    "ramp": "XDAI",
+    "coinGeckoId": "xdai",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fgnosis.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x64",
+      "blockExplorerUrls": [
+        "https://blockscout.com/xdai/mainnet/"
+      ],
+      "chainName": "Gnosis Chain",
+      "nativeCurrency": {
+        "name": "xDai",
+        "symbol": "xDai",
+        "decimals": 18,
+        "coinGeckoId": "xdai"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/gnosis"
+      ]
+    }
+  },
+  {
+    "key": "pze",
+    "chainType": "EVM",
+    "name": "Polygon zkEVM",
+    "coin": "ETH",
+    "id": 1101,
+    "unmarshal": "zkevm",
+    "unmarshalCoinId": 1101,
+    "transak": null,
+    "ramp": "POLYGONZKEVM",
+    "coinGeckoId": "polygon-zkevm",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fzkevm.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x44D",
+      "blockExplorerUrls": [
+        "https://zkevm.polygonscan.com/"
+      ],
+      "chainName": "Polygon zkEVM",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://polygon-rpc.com/zkevm"
+      ]
+    }
+  },
+  {
+    "key": "ftm",
+    "chainType": "EVM",
+    "name": "Fantom",
+    "coin": "FTM",
+    "id": 250,
+    "unmarshal": "fantom",
+    "unmarshalCoinId": 250,
+    "transak": "fantom",
+    "ramp": "FANTOM",
+    "coinGeckoId": "fantom",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Ffantom.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xfa",
+      "blockExplorerUrls": [
+        "https://ftmscan.com/"
+      ],
+      "chainName": "Fantom Opera",
+      "nativeCurrency": {
+        "name": "FTM",
+        "symbol": "FTM",
+        "decimals": 18,
+        "coinGeckoId": "fantom"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/fantom",
+        "https://rpc.ftm.tools/",
+        "https://rpcapi.fantom.network"
+      ]
+    }
+  },
+  {
+    "key": "cro",
+    "chainType": "EVM",
+    "name": "Cronos",
+    "coin": "CRO",
+    "id": 25,
+    "unmarshal": "cronos",
+    "unmarshalCoinId": 25,
+    "transak": "cronos",
+    "ramp": null,
+    "coinGeckoId": "cronos",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fcronos.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x19",
+      "blockExplorerUrls": [
+        "https://cronos.crypto.org/explorer/"
+      ],
+      "chainName": "Cronos",
+      "nativeCurrency": {
+        "name": "Crypto.org Coin",
+        "symbol": "CRO",
+        "decimals": 18,
+        "coinGeckoId": "crypto-com-chain"
+      },
+      "rpcUrls": [
+        "https://cronos-evm.publicnode.com"
+      ]
+    }
+  },
+  {
+    "key": "aur",
+    "chainType": "EVM",
+    "name": "Aurora",
+    "coin": "ETH",
+    "id": 1313161554,
+    "mainnet": true,
+    "isSelected": true,
+    "unmarshal": "aurora",
+    "unmarshalCoinId": 1313161554,
+    "transak": "aurora",
+    "ramp": null,
+    "coinGeckoId": "aurora",
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Faurora.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x4E454152",
+      "blockExplorerUrls": [
+        "https://aurorascan.dev/"
+      ],
+      "chainName": "Aurora",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://mainnet.aurora.dev"
+      ]
+    }
+  },
+  {
+    "key": "moo",
+    "chainType": "EVM",
+    "name": "Moonbeam",
+    "coin": "GLMR",
+    "id": 1284,
+    "unmarshal": "moonbeam",
+    "unmarshalCoinId": 1284,
+    "transak": null,
+    "ramp": null,
+    "coinGeckoId": "moonbeam",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fmoonbeam.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x504",
+      "blockExplorerUrls": [
+        "https://blockscout.moonbeam.network/"
+      ],
+      "chainName": "Moonbeam",
+      "nativeCurrency": {
+        "name": "GLMR",
+        "symbol": "GLMR",
+        "decimals": 18,
+        "coinGeckoId": "moonbeam"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/moonbeam",
+        "https://rpc.api.moonbeam.network"
+      ]
+    }
+  },
+  {
+    "key": "mor",
+    "chainType": "EVM",
+    "name": "Moonriver",
+    "coin": "MOVR",
+    "id": 1285,
+    "unmarshal": "moonriver",
+    "unmarshalCoinId": 1285,
+    "transak": "moonriver",
+    "ramp": null,
+    "coinGeckoId": "moonriver",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fmoonriver.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x505",
+      "blockExplorerUrls": [
+        "https://blockscout.moonriver.moonbeam.network/"
+      ],
+      "chainName": "Moonriver",
+      "nativeCurrency": {
+        "name": "Moonriver",
+        "symbol": "MOVR",
+        "decimals": 18,
+        "coinGeckoId": "moonriver"
+      },
+      "rpcUrls": [
+        "https://rpc.api.moonriver.moonbeam.network"
+      ]
+    }
+  },
+  {
+    "key": "cel",
+    "chainType": "EVM",
+    "name": "Celo",
+    "coin": "CELO",
+    "id": 42220,
+    "unmarshal": "celo",
+    "unmarshalCoinId": 42220,
+    "transak": "celo",
+    "ramp": "CELO",
+    "coinGeckoId": "celo",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fcelo.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0xa4ec",
+      "blockExplorerUrls": [
+        "https://explorer.celo.org/"
+      ],
+      "chainName": "Celo Mainnet",
+      "nativeCurrency": {
+        "name": "CELO",
+        "symbol": "CELO",
+        "decimals": 18,
+        "coinGeckoId": "celo"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/celo",
+        "https://forno.celo.org"
+      ]
+    }
+  },
+  {
+    "key": "bob",
+    "chainType": "EVM",
+    "name": "Boba",
+    "coin": "ETH",
+    "id": 288,
+    "unmarshal": "boba",
+    "unmarshalCoinId": 288,
+    "transak": null,
+    "ramp": null,
+    "coinGeckoId": "boba-network",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fboba.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x120",
+      "blockExplorerUrls": [
+        "https://bobascan.com/"
+      ],
+      "chainName": "Boba Network",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://mainnet.boba.network"
+      ]
+    }
+  },
+  {
+    "key": "fus",
+    "chainType": "EVM",
+    "name": "Fuse",
+    "coin": "FUSE",
+    "id": 122,
+    "unmarshal": "fuse",
+    "unmarshalCoinId": 122,
+    "transak": "fuse",
+    "ramp": "FUSE",
+    "coinGeckoId": "fuse",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Ffuse.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x7A",
+      "blockExplorerUrls": [
+        "https://explorer.fuse.io/"
+      ],
+      "chainName": "Fuse Mainnet",
+      "nativeCurrency": {
+        "name": "FUSE",
+        "symbol": "FUSE",
+        "decimals": 18,
+        "coinGeckoId": "fuse-network-token"
+      },
+      "rpcUrls": [
+        "https://rpc.fuse.io"
+      ]
+    }
+  },
+  {
+    "key": "vel",
+    "chainType": "EVM",
+    "name": "Velas",
+    "coin": "VLX",
+    "id": 106,
+    "unmarshal": "velas",
+    "unmarshalCoinId": 106,
+    "transak": "velasevm",
+    "ramp": null,
+    "coinGeckoId": "velas",
+    "mainnet": true,
+    "isSelected": true,
+    "multicallAddress": "0x6ede559F2Bd951777470595761672091CCD21Ac6",
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fvelas.png?alt=media",
+    "providerParams": {
+      "chainId": "0x6A",
+      "blockExplorerUrls": [
+        "https://evmexplorer.velas.com/"
+      ],
+      "chainName": "Velas",
+      "nativeCurrency": {
+        "name": "VLX",
+        "symbol": "VLX",
+        "decimals": 18,
+        "coinGeckoId": "velas"
+      },
+      "rpcUrls": [
+        "https://evmexplorer.velas.com/rpc"
+      ]
+    }
+  },
+  {
+    "key": "evm",
+    "chainType": "EVM",
+    "name": "Evmos",
+    "coin": "EVM",
+    "id": 9001,
+    "unmarshal": "evmos",
+    "unmarshalCoinId": 9001,
+    "transak": null,
+    "ramp": null,
+    "coinGeckoId": "evmos",
+    "mainnet": true,
+    "isSelected": true,
+    "logoURI": "https://firebasestorage.googleapis.com/v0/b/sherpa-wallet-c287f.appspot.com/o/icons%2Fevmos.png?alt=media",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x2329",
+      "blockExplorerUrls": [
+        "https://evm.evmos.org/"
+      ],
+      "chainName": "Evmos",
+      "nativeCurrency": {
+        "name": "EVMOS",
+        "symbol": "EVMOS",
+        "decimals": 18,
+        "coinGeckoId": "evmos"
+      },
+      "rpcUrls": [
+        "https://evmos-evm.publicnode.com"
+      ]
+    }
+  },
+  {
+    "key": "mum",
+    "chainType": "EVM",
+    "name": "Polygon Testnet",
+    "coin": "MATIC",
+    "id": 80001,
+    "unmarshal": "matic-testnet",
+    "unmarshalCoinId": 80001,
+    "transak": null,
+    "ramp": null,
+    "coinGeckoId": "polygon-pos",
+    "mainnet": false,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/polygon_test.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x13881",
+      "blockExplorerUrls": [
+        "https://explorer-mumbai.maticvigil.com/"
+      ],
+      "chainName": "Matic(Polygon) Testnet Mumbai",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18,
+        "coinGeckoId": "matic-network"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/polygon_mumbai"
+      ]
+    }
+  },
+  {
+    "key": "gor",
+    "chainType": "EVM",
+    "name": "Goerli",
+    "coin": "ETH",
+    "id": 5,
+    "unmarshal": "goerli-testnet",
+    "unmarshalCoinId": null,
+    "transak": null,
+    "ramp": null,
+    "coinGeckoId": "ethereum",
+    "mainnet": false,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ethereum_goerli.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x5",
+      "blockExplorerUrls": [
+        "https://goerli.etherscan.io"
+      ],
+      "chainName": "Goerli",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://rpc.ankr.com/eth_goerli",
+        "https://eth-goerli.api.onfinality.io/public"
+      ]
+    }
+  },
+  {
+    "key": "arbg",
+    "chainType": "EVM",
+    "name": "Arbitrum Görli",
+    "coin": "ETH",
+    "id": 421613,
+    "unmarshal": "null",
+    "unmarshalCoinId": null,
+    "transak": null,
+    "ramp": null,
+    "coinGeckoId": "arbitrum-one",
+    "mainnet": false,
+    "isSelected": true,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arbitrum_test.png",
+    "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "providerParams": {
+      "chainId": "0x66EED",
+      "blockExplorerUrls": [
+        "https://goerli.arbiscan.io/"
+      ],
+      "chainName": "Arbitrum Görli",
+      "nativeCurrency": {
+        "name": "AGOR",
+        "symbol": "AGOR",
+        "decimals": 18,
+        "coinGeckoId": "ethereum"
+      },
+      "rpcUrls": [
+        "https://arbitrum-goerli.publicnode.com"
+      ]
+    }
+  }
+]

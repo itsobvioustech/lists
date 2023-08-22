@@ -537,6 +537,7 @@ class RouterProtocol(TokenListProvider):
 # Prefer 1inch Icons over other token icons
 
 tokenlists_providers = [
+    OneInch,
     # OneSolTokenLists,
     FuseSwapTokenLists,
     TrisolarisLabsLists,
@@ -563,7 +564,6 @@ tokenlists_providers = [
     QuickSwap,
     QuickSwapZkEvm,
     XQuickSwapZkEvm,
-    CoinGecko,
     Uniswap,
-    OneInch,
+    CoinGecko,
 ]

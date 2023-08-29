@@ -25,7 +25,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Gnosis, 185 tokens
 - Optimism, 151 tokens
 - Aurora, 128 tokens
-- Cronos, 105 tokens
+- Cronos, 104 tokens
 - Moonriver, 90 tokens
 - Moonbeam, 78 tokens
 - Evmos, 46 tokens

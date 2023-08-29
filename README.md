@@ -20,8 +20,8 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Bsc, 1011 tokens
 - Polygon, 616 tokens
 - Avax, 339 tokens
-- Arbitrum, 307 tokens
 - Ftm, 307 tokens
+- Arbitrum, 306 tokens
 - Gnosis, 185 tokens
 - Optimism, 151 tokens
 - Aurora, 128 tokens
@@ -31,7 +31,7 @@ Token counts are approximate and may vary as providers update their tokenlists.
 - Evmos, 46 tokens
 - Celo, 37 tokens
 - Boba, 35 tokens
-- Fuse, 30 tokens
+- Fuse, 32 tokens
 - Chains, 22 tokens
 - Zkevm, 16 tokens
 - Base, 10 tokens

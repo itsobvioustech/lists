@@ -135,6 +135,7 @@ class CoinGecko(TokenListProvider):
         # "361": "theta",
         # "70": "hoo-smart-chain",
         "42161": "arbitrum-one",
+        "8453" : "base",
         "56": "binance-smart-chain",
         # "66": "okex-chain",
         "250": "fantom",

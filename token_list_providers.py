@@ -562,6 +562,7 @@ tokenlists_providers = [
     XyFinance,
     Optimism,
     # ArbitrumBridge,
+    CoinGecko,
     RubicLists,
     ElkFinance,
     PancakeSwap,
@@ -570,7 +571,6 @@ tokenlists_providers = [
     QuickSwap,
     QuickSwapZkEvm,
     XQuickSwapZkEvm,
-    CoinGecko,
     Uniswap,
     OneInch,
 ]

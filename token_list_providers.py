@@ -80,7 +80,8 @@ class TokenListProvider:
         for chain_id, chain_name in cls.chains.items():
             try:
                 resp = await httpx.AsyncClient().get(
-                    cls.base_url.format(chain_id if cls._by_chain_id else chain_name),
+                    cls.base_url.format(
+                        chain_id if cls._by_chain_id else chain_name),
                     headers=cls.headers if hasattr(cls, "headers") else None
                 )
             except httpx.ReadTimeout:
@@ -97,7 +98,8 @@ class TokenListProvider:
                     f"[{cls.name}] {chain_id} {chain_name} waiting {sleep_time} seconds")
                 await asyncio.sleep(sleep_time)
                 resp = await httpx.AsyncClient().get(
-                    cls.base_url.format(chain_id if cls._by_chain_id else chain_name),
+                    cls.base_url.format(
+                        chain_id if cls._by_chain_id else chain_name),
                     headers=cls.headers if hasattr(cls, "headers") else None
                 )
 
@@ -135,7 +137,7 @@ class CoinGecko(TokenListProvider):
         # "361": "theta",
         # "70": "hoo-smart-chain",
         "42161": "arbitrum-one",
-        "8453" : "base",
+        "8453": "base",
         "56": "binance-smart-chain",
         # "66": "okex-chain",
         "250": "fantom",
@@ -308,6 +310,7 @@ class QuickSwap(TokenListProvider):
         "137": "polygon"
     }
 
+
 class QuickSwapZkEvm(TokenListProvider):
     name = "quickzkevm"
     base_url = "https://raw.githubusercontent.com/sameepsi/quickswap-default-token-list/master/src/tokens/zkevm.json"
@@ -315,12 +318,14 @@ class QuickSwapZkEvm(TokenListProvider):
         "1101": "zkevm"
     }
 
+
 class XQuickSwapZkEvm(TokenListProvider):
     name = "xquickzkevm"
     base_url = "https://raw.githubusercontent.com/sameepsi/quickswap-default-token-list/master/src/tokens/zkevm.json"
     chains = {
         "1101": "zkevm"
     }
+
 
 class FuseSwapTokenLists(TokenListProvider):
     name = "fuseswap"
@@ -459,6 +464,7 @@ class xLifinance(TokenListProvider):
         '9001': '9001',
     }
 
+
 class Dfyn(TokenListProvider):
     name = "dfyn"
     base_url = "https://raw.githubusercontent.com/dfyn/new-host/main/list-token.tokenlist.json"
@@ -564,7 +570,7 @@ tokenlists_providers = [
     QuickSwap,
     QuickSwapZkEvm,
     XQuickSwapZkEvm,
-    Uniswap,
     CoinGecko,
+    Uniswap,
     OneInch,
 ]

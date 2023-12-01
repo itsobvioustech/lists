@@ -568,9 +568,9 @@ tokenlists_providers = [
     PancakeSwap,
     Sushiswap,
     OpenOcean,
-    QuickSwap,
     QuickSwapZkEvm,
     XQuickSwapZkEvm,
     Uniswap,
     OneInch,
+    QuickSwap,
 ]

@@ -567,7 +567,7 @@ tokenlists_providers = [
     ElkFinance,
     PancakeSwap,
     Sushiswap,
-    # OpenOcean,
+    OpenOcean,
     QuickSwapZkEvm,
     XQuickSwapZkEvm,
     Uniswap,

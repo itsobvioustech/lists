@@ -8,6 +8,9 @@ jobs:
   periodic-auto-update:
     runs-on: ubuntu-latest
     environment: token-refresh
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
 

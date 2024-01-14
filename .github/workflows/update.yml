@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     environment: token-refresh
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
+          python-version: "3.12"
           cache: "pip"
       - run: pip install -r requirements.txt
 
@@ -23,6 +23,12 @@ jobs:
         run: |
           python3 aggregate_tokens.py && python3 generate_readme.py
 
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ secrets.AWS_ROLE }}
+          aws-region: ${{ secrets.AWS_REGION }}
+  
       - name: Commit changes
         if: success()
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
@@ -35,8 +41,8 @@ jobs:
         if: success()
         name: Upload List to S3
         with:
-          aws_key_id: ${{ secrets.AWS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_key_id: ${{ env.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ env.AWS_SECRET_ACCESS_KEY }}
           aws_bucket: ${{ secrets.AWS_BUCKET }}
           source_dir: ${{ vars.S3_SOURCE_DIR }}
           destination_dir: ${{ vars.S3_OUTPUT_DIR }}

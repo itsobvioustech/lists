@@ -40,12 +40,7 @@ jobs:
           commit_user_email: ansuman@obvious.technology
           commit_message: Token Updates
 
-      - uses: shallwefootball/s3-upload-action@master
+      - name: Upload List to S3
         if: success()
-        name: Upload List to S3
-        with:
-          aws_key_id: ${{ env.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ env.AWS_SECRET_ACCESS_KEY }}
-          aws_bucket: ${{ secrets.AWS_BUCKET }}
-          source_dir: ${{ vars.S3_SOURCE_DIR }}
-          destination_dir: ${{ vars.S3_OUTPUT_DIR }}
+        run: |
+          aws s3 sync ${{ vars.S3_SOURCE_DIR }} s3://${{ secrets.AWS_BUCKET }}/${{ vars.S3_OUTPUT_DIR }} --include "*.json"

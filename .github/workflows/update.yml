@@ -10,7 +10,7 @@ jobs:
     environment: token-refresh
     permissions:
       id-token: write
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +34,7 @@ jobs:
   
       - name: Commit changes
         if: success()
-        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_user_name: obvious-bot
           commit_user_email: ansuman@obvious.technology

@@ -20,4 +20,4 @@ jobs:
       - name: Upload List to S3
         if: success()
         run: |
-          aws s3 sync ${{ vars.S3_SOURCE_DIR }} s3://${{ secrets.AWS_BUCKET }}/${{ vars.S3_OUTPUT_DIR }} --include "*.json" --dryrun
+          aws s3 sync ${{ vars.S3_SOURCE_DIR }} s3://${{ secrets.AWS_BUCKET }}/${{ vars.S3_OUTPUT_DIR }} --include "*.json"

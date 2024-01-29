@@ -1,8 +1,8 @@
 name: Periodic Update
 on:
   schedule:
-    # Run twice per day (at 1:00UTC, 13:00UTC)
-    - cron: "0 1,13 * * *"
+    # Run once per day (at 1:00UTC)
+    - cron: "0 1 * * *"
   workflow_dispatch:
 jobs:
   periodic-auto-update:

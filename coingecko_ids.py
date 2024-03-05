@@ -32,6 +32,7 @@ def get_coingecko_ids() -> dict[ChainId, dict[Address, str]]:
         "1285": "moonriver",
         "25": "cronos",
         "288": "boba",
+        "8453": "base",
         "10000": "smartbch",
         "1313161554": "aurora",
         "1666600000": "harmony-shard-0",

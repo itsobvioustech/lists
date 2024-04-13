@@ -82,7 +82,8 @@ class TokenListProvider:
                 resp = await httpx.AsyncClient().get(
                     cls.base_url.format(
                         chain_id if cls._by_chain_id else chain_name),
-                    headers=cls.headers if hasattr(cls, "headers") else None
+                    headers=cls.headers if hasattr(cls, "headers") else None,
+                    follow_redirects=True
                 )
             except httpx.ReadTimeout:
                 await asyncio.sleep(0.5)
@@ -100,7 +101,8 @@ class TokenListProvider:
                 resp = await httpx.AsyncClient().get(
                     cls.base_url.format(
                         chain_id if cls._by_chain_id else chain_name),
-                    headers=cls.headers if hasattr(cls, "headers") else None
+                    headers=cls.headers if hasattr(cls, "headers") else None,
+                    follow_redirects=True
                 )
 
             try:

@@ -16,14 +16,14 @@ We collect tokenlists from github repos or open APIs from various platforms, cur
 ## Chains with trusted tokens
 Here are chains presented in our tokenlists with current token count. You can find out more in `/tokens` folder.
 Token counts are approximate and may vary as providers update their tokenlists.
-- Ethereum, 2798 tokens
-- Bsc, 1645 tokens
-- Base, 1517 tokens
-- Polygon, 767 tokens
-- Arbitrum, 544 tokens
-- Avax, 392 tokens
+- Ethereum, 2802 tokens
+- Base, 1694 tokens
+- Bsc, 1649 tokens
+- Polygon, 768 tokens
+- Arbitrum, 545 tokens
+- Avax, 394 tokens
 - Ftm, 286 tokens
-- Gnosis, 242 tokens
+- Gnosis, 243 tokens
 - Optimism, 204 tokens
 - Cronos, 145 tokens
 - Aurora, 124 tokens
